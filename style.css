@@ -1,9 +1,9 @@
 /* importation police */
-@import "https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap"; 
+@import "https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap";
 
 /*affectation de la police */
 body {
-    font-family: "Raleway", "Sans serif "; 
+    font-family: "Raleway", "Sans serif ";
     margin: 5px;
     background-color: #5292f1;
 }
@@ -24,16 +24,15 @@ h3 {
 }
 
 
-header
-{
+header {
     display: flex;
     justify-content: space-between;
-    
-    
+
+
 }
-    
-    
-    logo {
+
+
+logo {
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -52,20 +51,20 @@ nav ul {
 }
 
 nav li {
-        margin-right: 20px;
+    margin-right: 20px;
 }
 
-nav a  {
+nav a {
 
-   font-size: 1.3em;
-   padding-bottom: 2px;
-   text-decoration: none;
+    font-size: 1.3em;
+    padding-bottom: 2px;
+    text-decoration: none;
 }
 
 /********************recherche********************/
 #recherche {
     padding: 20px;
-    
+
 }
 
 .bottonrecherche {
@@ -85,35 +84,39 @@ nav a  {
 }
 
 .bottonrecherche:hover {
-        background-color: #487dcc;
+    background-color: #487dcc;
 }
 
 /* iconnes------------------- */
 
-#filtre{
+#filtre {
     display: flex;
     justify-content: flex-start;
 }
+
 /*******************************************************************************************/
 section {
     margin: 5px;
     display: flex;
-    
+
 }
+
 .conteneur100 {
-    background-color: magenta;
+   
     display: flex;
     width: 100%;
     margin: 5px;
-   
+
 
 }
+
 .conteneur75 {
-    background-color: mediumaquamarine;
-    width: 75%;
+    background-color: #f2f2f2;
+        width: 75%;
     display: flex;
-   flex-direction: column;
-    
+    flex-direction: column;
+    border-radius: 0 10px 10px 0;
+
 }
 
 .titre7525 {
@@ -121,36 +124,46 @@ section {
 }
 
 #blocimg75 {
-    background-color: darkred;
+    
     width: 100%;
     height: auto;
     display: flex;
     flex-wrap: nowrap;
+    padding-top: 20px;
 }
 
 
 .img {
     display: flex;
-    width: 600px;
-    height: auto;
-    padding: 5px;
+    /*width: 350px;*/
+    max-height: auto;
+    padding: 1px 2px 15px 2px;
     flex-direction: column;
-    
+
 }
 
 
-img{
-    width: 100%;
+img {
+
+    white-space: normal;
+    border-radius: 10px;
     
+    max-width: 210px;
+    height: 200px;
+
 }
+
 
 .hebdescript {
     font-size: 12px;
-    font-weight: bold;
+    /* font-weight: bold;*/
     margin-top: 5px;
 }
 
-
+.liens {
+    text-decoration: none;
+    color: #000000;
+}
 
 /*------------------------------------------------------------------------------------------------------------------
 
