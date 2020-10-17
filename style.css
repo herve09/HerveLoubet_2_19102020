@@ -22,6 +22,8 @@ h3 {
     font-size: 12px;
     font-weight: bold;
 }
+
+
 header
 {
     display: flex;
@@ -76,6 +78,12 @@ nav a  {
     color: #ffffffef;
     text-align: center;
 }
+
+#site-search {
+    border: 2px solid;
+    border-radius: 10px;
+}
+
 .bottonrecherche:hover {
         background-color: #487dcc;
 }
@@ -104,17 +112,62 @@ section {
     background-color: mediumaquamarine;
     width: 75%;
     display: flex;
-    flex-direction: column;
+   flex-direction: column;
+    
 }
 
-.img75 {
-    display: flex;
-    width: 25%;
+.titre7525 {
+    margin: 2px 0 0 10px;
+}
+
+#blocimg75 {
+    background-color: darkred;
+    width: 100%;
     height: auto;
+    display: flex;
     flex-wrap: nowrap;
+}
+
+.img {
+    width: 600px;
+    height: auto;
+    padding: 5px;
+    
+}
+
+
+img{
+    width: 100%;
+    
+}
+
+
+
+
+/*------------------------------------------------------------------------------------------------------------------
+
+
+.imga75 {
+    display: block;
+    flex-wrap: nowrap;
+}
+
+.img33 {
+    display: flex;
+    flex-wrap: nowrap;
+    max-width: 400px;
+    width: 100%;
+    height: auto;
 }
 
 .conteneur25 {
     background-color: burlywood;    
     width: 25%;
 }
+
+
+
+
+
+
+*/
