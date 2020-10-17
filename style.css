@@ -128,10 +128,13 @@ section {
     flex-wrap: nowrap;
 }
 
+
 .img {
+    display: flex;
     width: 600px;
     height: auto;
     padding: 5px;
+    flex-direction: column;
     
 }
 
@@ -141,6 +144,11 @@ img{
     
 }
 
+.hebdescript {
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 5px;
+}
 
 
 
