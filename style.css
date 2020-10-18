@@ -6,6 +6,7 @@ body {
     font-family: "Raleway", "Sans serif ";
     margin: 5px;
     background-color: #5292f1;
+   
 }
 
 h1 {
@@ -32,7 +33,7 @@ header {
 }
 
 
-logo {
+.logo {
     display: flex;
     flex-direction: row;
     align-items: baseline;
@@ -102,7 +103,7 @@ section {
 }
 
 .conteneur100 {
-   
+
     display: flex;
     width: 100%;
     margin: 5px;
@@ -110,54 +111,109 @@ section {
 
 }
 
-.conteneur75 {
+.conteneur75, .conteneur25 {
     background-color: #f2f2f2;
-        width: 75%;
-    display: flex;
+   
+    
     flex-direction: column;
     border-radius: 0 10px 10px 0;
 
 }
+
+.conteneur75 {
+    display: flex;
+    flex: 3;
+    width: auto;
+    
+}
+
+.conteneur25 {
+     width: 35%;
+    display: flex;
+    
+   
+}
+
+
 
 .titre7525 {
     margin: 2px 0 0 10px;
 }
 
 #blocimg75 {
-    
+
     width: 100%;
     height: auto;
     display: flex;
     flex-wrap: nowrap;
-    padding-top: 20px;
-}
-
-
-.img {
-    display: flex;
-    padding: 1px 2px 15px 2px;
-    flex-direction: column;
-
-}
-
-
-img {
-
-    white-space: normal;
-    border-radius: 10px;
-    width: 210px;
-    max-height: 190px;
+    padding-top: 2px;
    
-    max-width: 210px;
-    height: 200px;
+}
+
+
+.img75 {
+    display: flex;
+    padding: 1px 2px 1px 2px;
+    flex-direction: column;
+    white-space: normal;
+    border: #fc0606 2px solid;
+    border-radius: 10px;
 
 }
 
 
-.hebdescript {
+.imgheb {
+
+    width: 100%;
+
+    max-width: 200px;
+    max-height: 150px;
+    min-width: 200px;
+    min-height: 150px;
+    border-radius: 10px;
+    
+}
+
+.blocimag25 {
+    display: flex;
+    flex-direction: column;
+   
+    border-radius: 10px;
+   
+
+}
+
+.img25 {
+    
+  
+    border-radius: 10px;
+    width: 100%;
+    
+}
+
+.imgpop {
+    width: 140px;
+    height: 125px;
+    border: #fc0606 2px solid;
+    border-radius: 10px 0 0 10px;
+    float: left;
+    
+}
+
+.hebdescriptif, .popdescriptif {
     font-size: 12px;
     /* font-weight: bold;*/
-    margin-top: 5px;
+    
+}
+
+.hebdescriptif {
+    padding: 5px 5px 5px 5px;
+}
+
+.popdescriptif {
+    padding-top: 45px;
+   padding-left: 150px;
+   
 }
 
 .liens {
@@ -165,6 +221,16 @@ img {
     color: #000000;
 }
 
+/*
+.conteneur25 {
+    background-color: #f2f2f2;
+        width: 25%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0 10px 10px 0;
+
+}
+*/
 /*------------------------------------------------------------------------------------------------------------------
 
 
