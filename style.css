@@ -135,8 +135,6 @@ section {
 
 .img {
     display: flex;
-    /*width: 350px;*/
-    max-height: auto;
     padding: 1px 2px 15px 2px;
     flex-direction: column;
 
@@ -147,7 +145,9 @@ img {
 
     white-space: normal;
     border-radius: 10px;
-    
+    width: 210px;
+    max-height: 190px;
+   
     max-width: 210px;
     height: 200px;
 
