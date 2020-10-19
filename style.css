@@ -5,8 +5,7 @@
 body {
     font-family: "Raleway", "Sans serif ";
     margin: 5px;
-    background-color: #5292f1;
-   
+    
 }
 
 h1 {
@@ -95,7 +94,7 @@ nav a {
     justify-content: flex-start;
 }
 
-/*******************************************************************************************/
+/***************************************************************************************************************************/
 section {
     margin: 5px;
     display: flex;
@@ -122,13 +121,13 @@ section {
 
 .conteneur75 {
     display: flex;
-    flex: 3;
+   flex: 3;
     width: auto;
     
 }
 
 .conteneur25 {
-     width: 35%;
+    width: 35%;
     display: flex;
     
    
@@ -221,40 +220,59 @@ section {
     color: #000000;
 }
 
-/*
-.conteneur25 {
-    background-color: #f2f2f2;
-        width: 25%;
+/**conteneur activites *************************************************************************/
+
+ .activite {
+     /*background-color: darkolivegreen;*/
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+ }
+
+ .blocimgactivite {
+    /*background-color: blueviolet;*/
+    display: flex;
+    flex-wrap: nowrap;
+   
+    
+}
+
+
+.bloc3imagesactivite {
+    /* background-color: darkorange;*/
+     display: flex;
+     flex-wrap: nowrap;
+     width: 50%;
+ 
+     
+ }
+ 
+.bloc3imagesactivite {
+    background-color: blue;
+    display: flex;
+    width: 50%;
+    
+}
+
+
+
+ .imgactivite1 { 
+     background-color: #fc0606;
+     display: flex;
+     flex: 2;
+     width: auto;
+ }
+
+
+
+.imgactivite2 {
+   background-color: darkseagreen;
+    
     display: flex;
     flex-direction: column;
-    border-radius: 0 10px 10px 0;
-
-}
-*/
-/*------------------------------------------------------------------------------------------------------------------
-
-
-.imga75 {
-    display: block;
-    flex-wrap: nowrap;
+    width: 50%;
 }
 
-.img33 {
-    display: flex;
-    flex-wrap: nowrap;
-    max-width: 400px;
+.imgactivitegrande {
     width: 100%;
-    height: auto;
 }
-
-.conteneur25 {
-    background-color: burlywood;    
-    width: 25%;
-}
-
-
-
-
-
-
-*/
