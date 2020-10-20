@@ -175,7 +175,7 @@ section {
     height: auto;
     display: flex;
     flex-wrap: nowrap;
-    padding-top: 2px;
+    padding: 2px;
    
 }
 
@@ -216,7 +216,7 @@ section {
 .blocimag25 {
     display: flex;
     flex-direction: column;
-   
+    background-color: #ffffff;
     border-radius: 10px;
    
 
@@ -224,8 +224,7 @@ section {
 
 .img25 {
     
-  
-    border-radius: 10px;
+   
     width: 100%;
     
 }
@@ -233,8 +232,9 @@ section {
 .imgpop {
     width: 140px;
     height: 125px;
-    border: #fc0606 2px solid;
-    border-radius: 10px 0 0 10px;
+   /* border: #fc0606 2px solid;
+    border-radius: 10px 0 0 10px;*/
+    padding: 2px;
     float: left;
     
 }
@@ -262,49 +262,54 @@ section {
 
 /**conteneur activites *************************************************************************/
 
- .activite {
-     /*background-color: darkolivegreen;*/
+ .activite {  /*comprend le titre et la totlaite image*/
+     background-color: darkolivegreen;
      display: flex;
      flex-direction: column;
      width: 100%;
  }
 
- .blocimgactivite {
-    /*background-color: blueviolet;*/
+ .blocimgactivite { /*comprend les 2 colonnes de 3 images chacune*/
+    background-color: blueviolet;
     display: flex;
     flex-wrap: nowrap;
    
-    
 }
+ 
+
 
 
 .bloc3imagesactivite {
-    /* background-color: darkorange;*/
+     background-color: darkorange;
      display: flex;
      flex-wrap: nowrap;
-     width: 50%;
- 
+    width: 50%;
+  
      
  }
- 
-.bloc3imagesactivite {
-    background-color: blue;
-    display: flex;
-    width: 50%;
-    
-}
+
+
 
 
 
  .imgactivite1 { 
      background-color: #fc0606;
      display: flex;
-     flex: 2;
-     width: auto;
+    flex: 2;
+    
  }
 
+ .imgactivitegrande {
+    display: flex;
+    width: 100%;
+    margin: 10px 2px 2px 0;
+}
 
-
+.imgactgr {
+    display: flex;
+    width: 100%;
+}
+/*
 .imgactivite2 {
    background-color: darkseagreen;
     
@@ -313,11 +318,9 @@ section {
     width: 50%;
 }
 
-.imgactivitegrande {
-    width: 100%;
-}
 
-/*----------------------------footer---------------------***********************************/
+
+----------------------------footer---------------------***********************************/
 footer {
     display: flex;
     flex-direction: row;
