@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -12,7 +12,8 @@
 
 <body>
 
-    <!--entete ------------------------------------------------------->
+
+    <!--entete -->
     <header>
         <!--logo-->
         <div id="logo">
@@ -27,8 +28,8 @@
         <nav>
             <ul>
                 <li><a href="#conteneur100">Hébergements</a></li>
-                <li><a href="#activite"></a>Activités</a></li>
-                <li><a href="#"></a>S'inscrire</a></li>
+                <li><A href="#activite">Activités</a></li>
+                <li><a href="#">S'inscrire</a></li>
 
             </ul>
         </nav>
@@ -36,7 +37,7 @@
 
 
     </header>
-    <!--fin entete---------------------------------------------------------------------------->
+    <!--fin entete ---------------------------------------------------->
 
     <!--zone de recherches-->
 
@@ -47,7 +48,7 @@
         <div id="barrerecherche">
             <i class="fas fa-map-marker-alt"></i>
 
-            <input type="search" id="site-search" name="q" aria-label="Search through site content">
+            <input type="search" class="site-search" name="q" aria-label="Search through site content">
 
             <button class="bottonrecherche">Rechercher</button>
         </div>
@@ -55,19 +56,19 @@
 
         <!--debut filtres recherches-->
         <div id="filtre">
-            <p class="filtre">Filtre
+          <!--  <p class="filtre">Filtre  -->
                 <div class="icone">
                     <i class="fas fa-folder-plus">
-                        <input type="search" id="site-search" name="q" aria-label="Search through site content"></i>
+                        <input type="search" class="site-search" name="q" aria-label="Search through site content"></i>
                 </div>
                 <div class="icone">
                     <i class="fas fa-child"></i>
 
-                    <input type="search" id="site-search" name="q" aria-label="Search through site content">
+                    <input type="search" class="site-search" name="q" aria-label="Search through site content">
                 </div>
                 <div class="icone">
                     <i class="fas fa-heart"></i>
-                    <input type="search" id="site-search" name="q" aria-label="Search through site content">
+                    <input type="search" class="site-search" name="q" aria-label="Search through site content">
                 </div>
 
 
@@ -76,16 +77,16 @@
                     <input type="search" id="site-search" name="q" aria-label="Search through site content">
                 </div>
 
-            </p>
-        </div>
+            <!-- </div></p> -->
+        
         <!--fin filtre recherche-->
 
     </div>
-    <!--fin zone de recherche----------------------------------------------------->
+    <!--fin zone de recherche  ---------------------------------->
 
 
 
-    <!-- debut section----------------------------------------------------------------------------------------------------------->
+    <!-- debut section  ----------------------------------------->
 
     <section>
         <!--section hebergement + populaire -->
@@ -101,15 +102,13 @@
                     <h3>Hébergement</h3>
                 </div>
 
-                <div id="blocimg75">
+                <div class="blocimg75">
                     <figure class="img75">
                         <a class="liens" title="hebergement" href="#">
                             <img class="imgheb"
                                 src="ressources/images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg"
                                 alt="Auberge la Cannebière">
-                            <figcaption class="hebdescriptif"><strong>Auberge La Cannibière</strong> </br>Nuit à partir
-                                de
-                                <strong>25€</strong></figcaption>
+                            <figcaption><strong>Auberge La Cannibière</strong> <br>Nuit à partir de <strong>25€</strong></figcaption>
                         </a>
                     </figure>
 
@@ -118,7 +117,7 @@
                             <img class="imgheb"
                                 src="ressources/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
                                 alt="Hôtel du Port">
-                            <figcaption class="hebdescriptif"><strong>Hôtel du port</strong> </br>Nuit à partir de
+                            <figcaption><strong>Hôtel du port</strong> <br>Nuit à partir de
                                 <strong>53€</strong></figcaption>
                         </a>
                     </figure>
@@ -128,21 +127,20 @@
                             <img class="imgheb"
                                 src="ressources/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
                                 alt="Hôtel les Mouettes">
-                            <figcaption class="hebdescriptif"><strong>Hôtel Les Mouettes</strong> </br>Nuit à partir de
-                                <strong>25€</strong></figcaption>
+                            <figcaption><strong>Hôtel Les Mouettes</strong> <br>Nuit à partir de <strong>25€</strong></figcaption>
                         </a>
                     </figure>
 
                 </div>
 
 
-                <div id="blocimg75">
+                <div class="blocimg75">
                     <figure class="img75">
                         <a class="liens" title="Hotel de la Mer" href="#">
                             <img class="imgheb"
                                 src="ressources/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
                                 alt="Hôtel de la Mer">
-                            <figcaption class="hebdescriptif"><strong>Hôtel de la mer</strong> </br>Nuit à partir de
+                            <figcaption><strong>Hôtel de la mer</strong> <br>Nuit à partir de
                                 <strong>46€</strong></figcaption>
                         </a>
                     </figure>
@@ -152,7 +150,7 @@
                             <img class="imgheb"
                                 src="ressources/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
                                 alt="Hôtel le Panier">
-                            <figcaption class="hebdescript"><strong>Hôtel du port</strong> </br>Nuit à partir de
+                            <figcaption><strong>Hôtel du port</strong> <br>Nuit à partir de
                                 <strong>23€</strong></figcaption>
                         </a>
                     </figure>
@@ -162,7 +160,8 @@
                             <img class="imgheb"
                                 src="ressources/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
                                 alt="Hôtel chez Amina">
-                            <figcaption class="hebdescriptif"><strong>Hôtel Les Mouettes</strong> </br>Nuit à partir de
+                            <figcaption><strong>Hôtel Les Mouettes</strong> <br>Nuit à partir
+                                de
                                 <strong>96€</strong></figcaption>
 
                         </a>
@@ -176,15 +175,15 @@
             <!--fin conteneur75-->
 
         </div>
-        <!--conteneur100------------>
+        <!--conteneur100  ------------>
 
 
         <div class="conteneur25">
             <div class="titre7525">
-                <p>
+                
                     <h3>Les plus Populaire</h3>
                     <div class="iconpop"><i class="fas fa-chart-line"></i></div>
-                </p>
+                
             </div>
 
             <div class="blocimg25">
@@ -195,7 +194,7 @@
                         <img class="imgpop"
                             src="ressources/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                             alt="Hôtel chez Amina">
-                        <figcaption class="popdescriptif"><strong>Hôtel Le Soleil <br> du Matin</strong> </br>Nuit à
+                        <figcaption class="popdescriptif"><strong>Hôtel Le Soleil <br> du Matin</strong> <br>Nuit à
                             partir de
                             <strong>120€</strong></figcaption>
 
@@ -215,7 +214,7 @@
                             src="ressources/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
                             alt="Hôtel chez Amina">
                         <figcaption class="popdescriptif"><strong>Au Coeur de L'eau <br> Maison d'hôtes</strong>
-                            </br>Nuit à partir de
+                            <br>Nuit à partir de
                             <strong>73€</strong></figcaption>
 
                     </a>
@@ -233,7 +232,7 @@
                         <img class="imgpop"
                             src="ressources/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
                             alt="Hôtel chez Amina">
-                        <figcaption class="popdescriptif"><strong>Hôtel Tout Bleu </br>et Blanc</strong> </br>Nuit à
+                        <figcaption class="popdescriptif"><strong>Hôtel Tout Bleu <br>et Blanc</strong> <br>Nuit à
                             partir de
                             <strong>68€</strong></figcaption>
 
@@ -250,9 +249,11 @@
 
 
 
-        </div>
+        
     </section>
-    <!--fin section------------------------------------------------>
+    <!--fin section ----------------------------------------->
+    <!----------------------------------->
+    <!----------------------------------->
 
 
     <section>
@@ -264,7 +265,7 @@
             </div>
 
 
-         <div class="blocimgactivite"> 
+            <div class="blocimgactivite">
                 <!--comprend les 2 colonnes de 3 images chacune-->
 
 
@@ -281,7 +282,7 @@
                                 <img class="imgactgr"
                                     src="ressources/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
                                     alt="Le Vieux port de Reno Laithienne">
-                                <figcaption class="hebdescriptif"><strong>Vieux Port</strong></figcaption>
+                                <figcaption><strong>Vieux Port</strong></figcaption>
 
                             </a>
 
@@ -293,10 +294,10 @@
                         <!--contient les 2 petites images-->
                         <figure class="imgactivitepetite">
                             <a class="liens" title="Fort de Poumègues" href="#">
-                                <img class="imgheb"
+                                <img class="imgact"
                                     src="ressources/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
                                     alt="Fort de Pomegues de Paul Hermann">
-                                <figcaption class="hebdescriptif"><strong>Fort de Pomègues</strong> </figcaption>
+                                <figcaption><strong>Fort de Pomègues</strong> </figcaption>
 
                             </a>
                         </figure>
@@ -304,10 +305,10 @@
                         <figure class="imgactivitepetite">
 
                             <a class="liens" title="Ile du Frioul" href="#">
-                                <img class="imgheb"
+                                <img class="imgact"
                                     src="ressources/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
                                     alt="Iles du Frioul de Kevin Hikari">
-                                <figcaption class="hebdescriptif"><strong>Iles du Frioul</strong>>/figcaption>
+                                <figcaption><strong>Iles du Frioul</strong>>/figcaption>
 
                             </a>
                         </figure>
@@ -319,117 +320,71 @@
 
                 <div class="blocimgactivite">
                     <!--comprend les 2 colonnes de 3 images chacune-->
-    
-    
-    
-                   <div class="bloc3imagesactivite">   
+
+
+
+                    <div class="bloc3imagesactivite">
                         <!--contient 3 images-->
-    
+                        <!--
                         <div class="imgactivite1">
-    
-                            <!--contient grande image-->
+
+                           contient grande image****************************
                             <figure class="imgactivitegrande">
-    
+
                                 <a class="liens" title="vieux port" href="#">
                                     <img class="imgactgr"
                                         src="ressources/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
                                         alt="Le Vieux port de Reno Laithienne">
                                     <figcaption class="hebdescriptif"><strong>Vieux Port</strong></figcaption>
-    
+
                                 </a>
-    
+
                             </figure>
-    
+
                         </div>
+
+
                         <div class="imgactivite2">
-    
-                            <!--contient les 2 petites images-->
+
+                           contient les 2 petites images******************************
                             <figure class="imgactivitepetite">
                                 <a class="liens" title="Fort de Poumègues" href="#">
-                                    <img class="imgheb"
+                                    <img class="imgact"
                                         src="ressources/images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
                                         alt="Fort de Pomegues de Paul Hermann">
                                     <figcaption class="hebdescriptif"><strong>Fort de Pomègues</strong> </figcaption>
-    
+
                                 </a>
                             </figure>
-    
+
                             <figure class="imgactivitepetite">
-    
+
                                 <a class="liens" title="Ile du Frioul" href="#">
-                                    <img class="imgheb"
+                                    <img class="imgact"
                                         src="ressources/images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"
                                         alt="Iles du Frioul de Kevin Hikari">
                                     <figcaption class="hebdescriptif"><strong>Iles du Frioul</strong>>/figcaption>
-    
-                                </a>
-                            </figure>
-    
-                        </div>
-    
-                   </div>          
-
-
-
-
-                <!--2eme bloc de 3 images
-                <div class="blocimgactivite">
-
-
-                    <div class="bloc3imagesactivite">
-
-                        <div class="imgactivite1">
-                            <figure class="imgactivitegrande">
-                              
-                                  <a class="liens" title="hebergement" href="#">
-                                    <img class="imgactgr"
-                                        src="ressources/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
-                                        alt="Hôtel chez Amina">
-                                    <figcaption class="hebdescriptif"><strong>Hôtel Les Mouettes</strong> </br>Nuit à
-                                        partir
-                                        de
-                                        <strong>96€</strong></figcaption>
-
-                                </a>                         
-                            </figure>
-
-                        </div>
-                        <div class="imgactivite2">
-                            <figure class="imgactivitepetite">
-                                <a class="liens" title="hebergement" href="#">
-                                    <img class="imgheb"
-                                        src="ressources/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
-                                        alt="Hôtel chez Amina">
-                                    <figcaption class="hebdescriptif"><strong>Hôtel Les Mouettes</strong> </br>Nuit à
-                                        partir
-                                        de
-                                        <strong>96€</strong></figcaption>
-
-                                </a>
-                            </figure>
-
-                            <figure class="imgactivitepetite">
-                                <a class="liens" title="hebergement" href="#">
-                                    <img class="imgheb"
-                                        src="ressources/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
-                                        alt="Hôtel chez Amina">
-                                    <figcaption class="hebdescriptif"><strong>Hôtel Les Mouettes</strong> </br>Nuit à
-                                        partir
-                                        de
-                                        <strong>96€</strong></figcaption>
 
                                 </a>
                             </figure>
 
                         </div>
+                    -->
+                    </div>
 
-                    </div>  -->
 
 
+                </div>
 
             </div>
+
+
+
         </div>
+
     </section>
+
+
 
 
 

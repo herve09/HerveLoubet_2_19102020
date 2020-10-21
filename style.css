@@ -9,6 +9,8 @@ body {
     
 }
 
+
+
 h1 {
     font-size: 16px;
     font-weight: bold;
@@ -43,7 +45,7 @@ header {
 /* navigation--------------------------*/
 nav {
     vertical-align: top;
-    
+
 }
 
 nav ul {
@@ -71,17 +73,19 @@ nav a {
     border-radius: 15px;
 }
 */
-.fa, .fas {
+.fa,
+.fas {
     color: #0065fc;
     font-size: 15px;
-   
+
     border-radius: 15px;
     padding: 0px 2px 0px 2px;
 }
+
 /**************bordure des filtres et recherche ********/
 .icone {
-   margin: 10px 5px 0px 5px;
-    border: 2px solid red;
+    margin: 10px 5px 0px 5px;
+   /* border: 2px solid rgb(161, 161, 161);*/
     border-radius: 10px;
 }
 
@@ -105,6 +109,7 @@ nav a {
     color: #ffffffef;
     text-align: center;
 }
+
 /*
 #site-search {
     border: 2px solid;
@@ -138,10 +143,11 @@ section {
 
 }
 
-.conteneur75, .conteneur25 {
+.conteneur75,
+.conteneur25 {
     background-color: #f2f2f2;
-   
-    
+
+
     flex-direction: column;
     border-radius: 0 10px 10px 0;
 
@@ -149,16 +155,16 @@ section {
 
 .conteneur75 {
     display: flex;
-   flex: 3;
+    flex: 3;
     width: auto;
-    
+
 }
 
 .conteneur25 {
     width: 35%;
     display: flex;
-    
-   
+
+
 }
 
 
@@ -169,14 +175,14 @@ section {
 
 
 
-#blocimg75 {
+.blocimg75 {
 
     width: 100%;
     height: auto;
     display: flex;
     flex-wrap: nowrap;
     padding: 2px;
-   
+
 }
 
 
@@ -187,7 +193,7 @@ section {
     white-space: normal;
     border: 3px solid #ffffff;
     border-radius: 10px;
-    background-color: #ffffff;
+    
 
 }
 
@@ -201,8 +207,10 @@ section {
     min-width: 200px;
     min-height: 150px;
     border-radius: 10px;
-    
+    padding: 2px;
+
 }
+
 /********bloc populaire*************************/
 /******* position icone populaire
 .iconpop {
@@ -218,31 +226,32 @@ section {
     flex-direction: column;
     background-color: #ffffff;
     border-radius: 10px;
-   
+  
 
 }
 
 .img25 {
-    
-   
+
+
     width: 100%;
-    
+
 }
 
 .imgpop {
     width: 140px;
     height: 125px;
-   /* border: #fc0606 2px solid;
-    border-radius: 10px 0 0 10px;*/
+    
+    border-radius: 10px 0 0 10px;
     padding: 2px;
     float: left;
-    
+
 }
 
-.hebdescriptif, .popdescriptif {
+.hebdescriptif,
+.popdescriptif {
     font-size: 12px;
     /* font-weight: bold;*/
-    
+
 }
 
 .hebdescriptif {
@@ -251,8 +260,8 @@ section {
 
 .popdescriptif {
     padding-top: 45px;
-   padding-left: 150px;
-   
+    padding-left: 150px;
+
 }
 
 .liens {
@@ -262,90 +271,116 @@ section {
 
 /**conteneur activites *************************************************************************/
 
- .activite {  /*comprend le titre et la totlaite image*/
-     background-color: darkolivegreen;
-     display: flex;
-     flex-direction: column;
-     width: 100%;
- }
+.activite {
+    /*comprend le titre et la totlaite image*/
+    background-color: darkolivegreen;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
 
- .blocimgactivite { /*comprend les 2 colonnes de 3 images chacune*/
+.blocimgactivite {
+    /*comprend les 2 colonnes de 3 images chacune*/
     background-color: blueviolet;
     display: flex;
     flex-wrap: nowrap;
-   
+
 }
- 
+
 
 
 
 .bloc3imagesactivite {
-     background-color: darkorange;
-     display: flex;
-     flex-wrap: nowrap;
-    width: 50%;
-  
-     
- }
-
-
-
-
-
- .imgactivite1 { 
-     background-color: #fc0606;
-     display: flex;
-    flex: 2;
-    
- }
-
- .imgactivitegrande {
+    background-color: darkorange;
     display: flex;
-    width: 100%;
-    margin: 10px 2px 2px 0;
+    flex-wrap: nowrap;
+    width: 50%;
+
+
+}
+
+
+
+
+
+.imgactivite1 {
+    background-color: #fc0606;
+    display: flex;
+    width: 50%;
+
+
+
+}
+
+.imgactivitegrande {
+    max-width: 100%;
+    max-height: auto;
+    display: block;
+
+    margin: 10px 2px 2px 10px;
+
 }
 
 .imgactgr {
     display: flex;
+    flex: 2;
     width: 100%;
 }
-/*
+
 .imgactivite2 {
-   background-color: darkseagreen;
-    
+    background-color: darkseagreen;
+
     display: flex;
     flex-direction: column;
     width: 50%;
 }
 
+.imgact {
 
+    max-width: 100%;
+    max-height: 150px;
+    display: block;
 
-----------------------------footer---------------------***********************************/
-footer {
+}
+
+----------------------------footer---------------------***********************************/ footer {
     display: flex;
     flex-direction: row;
     background-color: #f2f2f2;
-    
-    
+
+
 }
 
 
-#apropos, #noshebergements, #assistance {
+#apropos,
+#noshebergements,
+#assistance {
     width: 250px;
-    
+
     font-size: 12px;
-    
+
 }
 
 #apropos {
     padding-right: 150px;
-    
+
 }
 
-#noshebergements {
-    
-}
+#noshebergements {}
 
-#assistance {
-    
-}
+#assistance {}
+
+/*************************Responsive ******************************************/
+/******************************************************************************/
+@media all and (max-device-width: 480px) [
+
+    body {
+        background-color: springgreen;
+    }
+
+        {
+        color: red;
+    }
+
+
+]
