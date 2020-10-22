@@ -314,7 +314,7 @@ section {
 
 .imgactivitegrande {
     max-width: 100%;
-    max-height: auto;
+  /*  max-height: auto;*/
     display: block;
 
     margin: 10px 2px 2px 10px;
@@ -343,7 +343,7 @@ section {
 
 }
 
-----------------------------footer---------------------***********************************/ footer {
+ footer {
     display: flex;
     flex-direction: row;
     background-color: #f2f2f2;
@@ -372,15 +372,15 @@ section {
 
 /*************************Responsive ******************************************/
 /******************************************************************************/
-@media all and (max-device-width: 480px) [
+@media all and (max-device-width: 480px) {
 
     body {
         background-color: springgreen;
     }
 
         {
-        color: red;
+        color: #ffffff;
     }
 
 
-]
+}
