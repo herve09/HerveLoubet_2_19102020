@@ -4,25 +4,25 @@
 /*affectation de la police */
 body {
     font-family: "Raleway", "Sans serif ";
-    margin: 5px;
+    margin: 15px;
     background-color: #DEEBFF;
-    
+
 }
 
 
 
 h1 {
-    font-size: 16px;
+    font-size: 1.25rem;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 14px;
+    font-size: 1.15rem;
     font-weight: bold;
 }
 
 h3 {
-    font-size: 12px;
+    font-size: 1rem;
     font-weight: bold;
 }
 
@@ -65,57 +65,59 @@ nav a {
     text-decoration: none;
 }
 
-/*
+
 .fa-folder-plus, .fa-child, .fa-heart, .fa-dog {
     color: #0065fc;
-    font-size: 15px;
-    border: 2px solid #f50505;
-    border-radius: 15px;
+    background-color: #DEEBFF;
+    font-size: 1.6rem;
+    border-radius: 50%;
+   padding: 0.5rem;
+   
 }
-*/
+
 .fa,
 .fas {
     color: #0065fc;
-    font-size: 15px;
+    font-size: 1rem;
 
-    border-radius: 15px;
+    border-radius: 35px;
     padding: 0px 2px 0px 2px;
 }
 
 /**************bordure des filtres et recherche ********/
-.icone {
-    margin: 10px 5px 0px 5px;
-   /* border: 2px solid rgb(161, 161, 161);*/
+#filtre {
+    margin-top: 2rem;
+}
+ .icone {
+    background-color: #ffffff;
+  margin: 15px;
+    border: 2px solid rgb(161, 161, 161);
+    border-radius: 20px;
+}
+
+.filtretexte {
+
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0 25px 0 25px;
+}
+
+.site-search {
+    border: 1px solid #F2F2F2;
     border-radius: 10px;
+    font-size: 1.5rem;
+}
+.fa-map-marker-alt {
+    font-size: 1.5rem;
+    background-color: #f2f2f2;
 }
 
-
-
-
-
-/********************recherche********************/
-#recherche {
-    padding: 20px;
-
+.boutonrecherche {
+    background-color: #0065fc;
+    font-size: 1.2rem;
+    border-radius: 0 1rem 1rem 0;
+    color: #ffffff;
 }
-
-.bottonrecherche {
-    border: 0;
-    background-color: #0065FC;
-    line-height: 2.0;
-    border-radius: 0 20px 20px 0;
-
-    font-size: 14px;
-    color: #ffffffef;
-    text-align: center;
-}
-
-/*
-#site-search {
-    border: 2px solid;
-    border-radius: 10px;
-}
-*/
 .bottonrecherche:hover {
     background-color: #487dcc;
 }
@@ -126,50 +128,61 @@ nav a {
     display: flex;
     justify-content: flex-start;
 }
-
-/***************************************************************************************************************************/
+/*************************************************/
+/***************************************************/
+/****************************************************/
+/**......************************************************************************************/
 section {
     margin: 5px;
     display: flex;
 
 }
 
-.conteneur100 {
-
-    display: flex;
-    width: 100%;
-    margin: 5px;
 
 
-}
-
-.conteneur75,
-.conteneur25 {
+.blochebergement,
+.blocpopulaire {
     background-color: #f2f2f2;
+   border-radius: 20px ;
+   margin: 5px;
 
+}
 
+.blochebergement {
+    display: flex;
+    flex-wrap: wrap;
+   
+    
+
+}
+
+.blochebermentimage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+/*******************************************/
+/*****************************************/
+.blocpopulaire {
+    
+    display: flex;
     flex-direction: column;
-    border-radius: 0 10px 10px 0;
-
-}
-
-.conteneur75 {
-    display: flex;
-    flex: 3;
-    width: auto;
-
-}
-
-.conteneur25 {
-    width: 35%;
-    display: flex;
 
 
 }
 
 
+.fas fa-chart-line {
+    align-content: left;
+}
 
-.titre7525 {
+figcaption {
+    display: block;
+    font-size: 0.75rem;
+}
+
+.titrebloc {
     margin: 2px 0 0 10px;
 }
 
@@ -192,66 +205,80 @@ section {
     flex-direction: column;
     white-space: normal;
     border: 3px solid #ffffff;
+    background-color: #ffffff;
     border-radius: 10px;
-    
+
 
 }
+.fa-star {
+    color: #0065fc;
+    font-size: 0.8rem;
+}
 
+.fa-star.claire {
+    color: #DEEBFF;
+}
 
 .imgheb {
 
     width: 100%;
 
-    max-width: 200px;
-    max-height: 150px;
-    min-width: 200px;
-    min-height: 150px;
+    max-width: 10.5rem;
+    max-height: 9.4rem;
+    min-width: 12.5rem;
+    min-height: 9.4rem;
     border-radius: 10px;
     padding: 2px;
 
 }
 
-/********bloc populaire*************************/
-/******* position icone populaire
+/********bloc populaire****************************************/
+/******* position icone populaire*/
 .iconpop {
     display: flex;
     justify-content: flex-end;
     text-align: right;
     
 }
-********/
+
 
 .blocimag25 {
     display: flex;
     flex-direction: column;
-    background-color: #ffffff;
+    
+    align-content: center;
     border-radius: 10px;
-  
+
 
 }
 
 .img25 {
 
-
-    width: 100%;
+ max-height: 9.5rem;
+ min-width: 18.00rem;
+ max-width: 30.00rem;
+ padding: 3px;
+ margin-inline-start: 1px;
+ border-radius: 1.2rem;
+ margin-inline-end: 5px;
+   
 
 }
 
+
 .imgpop {
-    width: 140px;
-    height: 125px;
-    
-    border-radius: 10px 0 0 10px;
-    padding: 2px;
+   width: 7.5rem;
+    height: 8.0rem;
+
+    border-radius: 1.2rem 0 0 1.2rem;
+    padding: 0.5rem;
     float: left;
 
 }
 
-.hebdescriptif,
-.popdescriptif {
-    font-size: 12px;
-    /* font-weight: bold;*/
 
+.prix {
+    font-weight: bold;
 }
 
 .hebdescriptif {
@@ -259,8 +286,8 @@ section {
 }
 
 .popdescriptif {
-    padding-top: 45px;
-    padding-left: 150px;
+    padding-top: 1rem;
+    padding-left: 50px;
 
 }
 
@@ -270,9 +297,57 @@ section {
 }
 
 /**conteneur activites *************************************************************************/
+/**************************************************/
+/*************************************************/
+
+.blocactiviteimage {
+    width: 100%;
+    background-color: blueviolet;
+}
+
+.colonneactivite {
+    
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+
+
+}
+
+.blocactiviteimage {
+    display: flex;
+   
+}
+
+
+
+.imgactgr {
+    overflow: hidden;
+    
+    max-width: 250px;
+    height: auto;
+    border-radius: 1.5rem 1.5rem 0 0;
+
+}
+
+/*****conteneur 2 images**************/
+.conteneur2images {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.imgactpetite {
+    overflow: hidden;
+    max-width: 100%;
+    height: auto;
+    border-radius: 1.5rem 1.5rem 0 0;
+}
+
+/********************************************
 
 .activite {
-    /*comprend le titre et la totlaite image*/
+    comprend le titre et la totlaite image
     background-color: darkolivegreen;
     display: flex;
     flex-direction: column;
@@ -280,7 +355,7 @@ section {
 }
 
 .blocimgactivite {
-    /*comprend les 2 colonnes de 3 images chacune*/
+    comprend les 2 colonnes de 3 images chacune
     background-color: blueviolet;
     display: flex;
     flex-wrap: nowrap;
@@ -289,12 +364,13 @@ section {
 
 
 
-
 .bloc3imagesactivite {
     background-color: darkorange;
     display: flex;
     flex-wrap: nowrap;
     width: 50%;
+    max-height: auto;
+    top: 0px;
 
 
 }
@@ -305,45 +381,98 @@ section {
 
 .imgactivite1 {
     background-color: #fc0606;
-    display: flex;
+
     width: 50%;
+
+    display: block;
+
 
 
 
 }
 
+ 
 .imgactivitegrande {
-    max-width: 100%;
-  /*  max-height: auto;*/
+   max-width: 100%;
+max-height: 100%; 
+overflow: hidden;
+
     display: block;
 
     margin: 10px 2px 2px 10px;
-
+    
 }
 
 .imgactgr {
-    display: flex;
-    flex: 2;
-    width: 100%;
-}
+    overflow: hidden;
+    margin: 0px 10px 0px 0px;
+    height: 100%;
+    border-radius: 1.5rem 1.5rem 0 0;
 
+}
+.image {
+    margin: 0px;
+    height: 8rem;
+}
+ /*
 .imgactivite2 {
-    background-color: darkseagreen;
+     background-color: darkseagreen; 
 
     display: flex;
     flex-direction: column;
     width: 50%;
+    max-height: auto;
+    padding-top: 0px;
+    overflow: hidden;
+    display: block;
 }
 
 .imgact {
-
+    /*
     max-width: 100%;
-    max-height: 150px;
-    display: block;
+    overflow: hidden;
+display: block;
+   
+    
+    overflow: hidden; 
+    width: 100%;
+    height: 8rem;
+    justify-content: center;
+    object-fit: cover;
 
+    
 }
 
- footer {
+
+.imgactconteneur {
+    background-color: #0065fc;
+    display: flex;
+    width: 100%;
+    height: 40%;
+    display: block;
+   overflow: hidden;
+}
+
+.image {
+    margin: auto;
+    display: block;
+   /* overflow: hidden;
+      max-height: 100%;
+    width: 100%;
+}
+
+.imgactpetite {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+*/
+
+
+/****************************************************************footer************/
+/*******************************************************/
+/*********************************************************/
+footer {
     display: flex;
     flex-direction: row;
     background-color: #f2f2f2;
@@ -355,14 +484,14 @@ section {
 #apropos,
 #noshebergements,
 #assistance {
-    width: 250px;
+    width: 16rem;
 
     font-size: 12px;
 
 }
 
 #apropos {
-    padding-right: 150px;
+    padding-right: 9.5rem;
 
 }
 
