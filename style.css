@@ -45,6 +45,7 @@ header {
 /* navigation--------------------------*/
 nav {
     vertical-align: top;
+    
 
 }
 
@@ -60,7 +61,7 @@ nav li {
 
 nav a {
 
-    font-size: 1.3em;
+    font-size: 1.2em;
     padding-bottom: 2px;
     text-decoration: none;
 }
@@ -92,19 +93,19 @@ nav a {
     background-color: #ffffff;
   margin: 15px;
     border: 2px solid rgb(161, 161, 161);
-    border-radius: 20px;
+    border-radius: 1.5rem;
 }
 
 .filtretexte {
 
     font-size: 1rem;
     font-weight: bold;
-    margin: 0 25px 0 25px;
+    margin: 0 1.5rem 0 1.5rem;
 }
 
 .site-search {
     border: 1px solid #F2F2F2;
-    border-radius: 10px;
+    border-radius: 1.5rem;
     font-size: 1.5rem;
 }
 .fa-map-marker-alt {
@@ -143,12 +144,13 @@ section {
 .blochebergement,
 .blocpopulaire {
     background-color: #f2f2f2;
-   border-radius: 20px ;
+   border-radius: 1.5rem ;
    margin: 5px;
 
 }
 
 .blochebergement {
+    flex: 1; /*responsive nomme class*/
     display: flex;
     flex-wrap: wrap;
    
@@ -165,6 +167,7 @@ section {
 /*******************************************/
 /*****************************************/
 .blocpopulaire {
+    order: 1; /* resposive nomme class*/
     
     display: flex;
     flex-direction: column;
@@ -174,12 +177,13 @@ section {
 
 
 .fas fa-chart-line {
-    align-content: left;
+   
 }
 
 figcaption {
     display: block;
     font-size: 0.75rem;
+    padding: 0.5rem;
 }
 
 .titrebloc {
@@ -206,8 +210,10 @@ figcaption {
     white-space: normal;
     border: 3px solid #ffffff;
     background-color: #ffffff;
-    border-radius: 10px;
-
+    border-radius: 1.5rem;
+  /* max-width: auto;
+    max-height: auto;
+*/
 
 }
 .fa-star {
@@ -226,8 +232,8 @@ figcaption {
     max-width: 10.5rem;
     max-height: 9.4rem;
     min-width: 12.5rem;
-    min-height: 9.4rem;
-    border-radius: 10px;
+      min-height: 9.4rem;
+    border-radius: 1.5rem;
     padding: 2px;
 
 }
@@ -247,7 +253,7 @@ figcaption {
     flex-direction: column;
     
     align-content: center;
-    border-radius: 10px;
+    border-radius: 1.5rem;
 
 
 }
@@ -302,16 +308,35 @@ figcaption {
 
 .blocactiviteimage {
     width: 100%;
-    background-color: blueviolet;
+   
+   
 }
 
-.colonneactivite {
+.colonneactivite1, .colonneactivite2, .colonneactivite3, .colonneactivite4 {
     
     display: flex;
     flex-direction: column;
-    width: 250px;
+    /* width: 100%;
+    height: 40rem;
 
 
+   /* overflow: hidden;*/
+ width: 16rem;
+    height: 40rem;
+
+}
+.colonneactivite1 {
+    background-color: red;
+}
+
+.colonneactivite2 {
+    background-color: blue;
+}
+.colonneactivite1 {
+    background-color: green;
+}
+.colonneactivite1 {
+    background-color:yellow;
 }
 
 .blocactiviteimage {
@@ -322,13 +347,17 @@ figcaption {
 
 
 .imgactgr {
-    overflow: hidden;
-    
-    max-width: 250px;
-    height: auto;
-    border-radius: 1.5rem 1.5rem 0 0;
-    margin-inline-start: 10px;
-    margin-inline-end: 10px;
+  overflow: hidden;
+  /* 
+   width: 16rem;*/
+    height: 34rem; 
+    width: 15rem;
+    background-color: #ffffff;
+    border: 3px solid #f2f2f2;
+    border-radius: 1.5rem;
+     
+   margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
 
 }
 
@@ -337,142 +366,31 @@ figcaption {
     display: flex;
     flex-direction: column;
     max-width: 100%;
+    
+   
+}
+.blocactiviteimage {
+    display: flex;
+    justify-content: space-around;
+    
 }
 
 .image {
     margin-inline-start: 1rem;
     margin-inline-end: 1rem;
+    background-color: #ffffff;
+    border-radius: 1.5rem;
+    border: 3px solid #ffffff;
 }
 .imgactpetite {
     overflow: hidden;
-    max-width: 250px;
-    height: auto;
+    width: 16rem;
+    height:  11em;
     border-radius: 1.5rem 1.5rem 0 0;
+   /**
+    margin-inline-start: 10px;
+    margin-inline-end: 10px;**/
 }
-
-/********************************************
-
-.activite {
-    comprend le titre et la totlaite image
-    background-color: darkolivegreen;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-.blocimgactivite {
-    comprend les 2 colonnes de 3 images chacune
-    background-color: blueviolet;
-    display: flex;
-    flex-wrap: nowrap;
-
-}
-
-
-
-.bloc3imagesactivite {
-    background-color: darkorange;
-    display: flex;
-    flex-wrap: nowrap;
-    width: 50%;
-    max-height: auto;
-    top: 0px;
-
-
-}
-
-
-
-
-
-.imgactivite1 {
-    background-color: #fc0606;
-
-    width: 50%;
-
-    display: block;
-
-
-
-
-}
-
- 
-.imgactivitegrande {
-   max-width: 100%;
-max-height: 100%; 
-overflow: hidden;
-
-    display: block;
-
-    margin: 10px 2px 2px 10px;
-    
-}
-
-.imgactgr {
-    overflow: hidden;
-    margin: 0px 10px 0px 0px;
-    height: 100%;
-    border-radius: 1.5rem 1.5rem 0 0;
-
-}
-.image {
-    margin: 0px;
-    height: 8rem;
-}
- /*
-.imgactivite2 {
-     background-color: darkseagreen; 
-
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-    max-height: auto;
-    padding-top: 0px;
-    overflow: hidden;
-    display: block;
-}
-
-.imgact {
-    /*
-    max-width: 100%;
-    overflow: hidden;
-display: block;
-   
-    
-    overflow: hidden; 
-    width: 100%;
-    height: 8rem;
-    justify-content: center;
-    object-fit: cover;
-
-    
-}
-
-
-.imgactconteneur {
-    background-color: #0065fc;
-    display: flex;
-    width: 100%;
-    height: 40%;
-    display: block;
-   overflow: hidden;
-}
-
-.image {
-    margin: auto;
-    display: block;
-   /* overflow: hidden;
-      max-height: 100%;
-    width: 100%;
-}
-
-.imgactpetite {
-    width: 100%;
-    height: auto;
-    object-fit: cover;
-}
-*/
 
 
 /****************************************************************footer************/
@@ -492,7 +410,8 @@ footer {
 #assistance {
     width: 16rem;
 
-    font-size: 12px;
+    font-size: 1rem;
+    padding: 0.5rem;
 
 }
 
@@ -507,15 +426,26 @@ footer {
 
 /*************************Responsive ******************************************/
 /******************************************************************************/
-@media all and (max-device-width: 480px) {
+@media all and (max-device-width: 900px) {
 
+
+   .blocpopulaire {
+        order: 2;
+        flex: 1;
+    }
+
+.blochebergement {
+    flex: 2;
+}
+.blocactiviteimage {
+    display: grid;
+}
     body {
         background-color: springgreen;
     }
 
-        {
-        color: #ffffff;
-    }
+       
 
 
 }
+
