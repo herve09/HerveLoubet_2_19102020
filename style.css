@@ -56,7 +56,7 @@ nav ul {
 }
 
 nav li {
-    margin-right: 20px;
+    margin-right: 0.5rem;
 }
 
 nav a {
@@ -150,9 +150,10 @@ section {
 }
 
 .blochebergement {
-    flex: 1; /*responsive nomme class*/
+    /*flex: 1; responsive nomme class*/
     display: flex;
     flex-wrap: wrap;
+    
    
     
 
@@ -162,6 +163,7 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    
 
 }
 /*******************************************/
@@ -176,7 +178,8 @@ section {
 }
 
 
-.fas fa-chart-line {
+.fa-chart-line {
+    margin-left: 6rem;
    
 }
 
@@ -416,7 +419,7 @@ footer {
 }
 
 #apropos {
-    padding-right: 9.5rem;
+  /*  padding-right: 9.5rem;*/
 
 }
 
@@ -426,26 +429,96 @@ footer {
 
 /*************************Responsive ******************************************/
 /******************************************************************************/
-@media all and (max-device-width: 900px) {
+@media all and (max-device-width: 1024px) {
 
-
-   .blocpopulaire {
-        order: 2;
-        flex: 1;
-    }
-
-.blochebergement {
-    flex: 2;
-}
-.blocactiviteimage {
-    display: grid;
-}
+   
     body {
         background-color: springgreen;
     }
 
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+   .blocpopulaire {
+       display: flex;
+       align-content: content: '\f134';;
+       
+    }
+.imgpop {
+    width: auto;
+}
+/*************************************/
+.blocactiviteimage {
+    display: grid;
+}
+.ilgheb {
+    width: 100%;
+}
+
+
+.blocativite {
+    display: flex;
+    flex-direction: column;
+}
+.blocactiviteimage {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgactgr {
+    width: 100%;
+}
+
+ .imgactpetite {
+     width: 100%;
+ }
+
+footer {
+    display: grid;
+}
+   
+
        
 
 
+}
+
+
+
+
+@media all and (max-device-width: 468px) {
+    .barrerecherche {
+        display: flex;
+        width: 10rem;
+    }
+    
+    body {
+        background-color: rgb(255, 230, 0);
+    }
+
+    nav a {
+        font-size: 1rem;
+        margin-right: 0px;
+        justify-content: space-around;
+    }
+
+
+    .site-search {
+        width: 10rem;
+    }
+
+    .filtre {
+        display: flex;
+       max-width: 360px;
+        justify-content: space-between;
+        margin: 0px;
+    }
+    .filtretexte {
+        margin: 0 0.2rem 0 0.2rem;
+        font-size: 1.0rem;
+        text-align: center;
+       
+    }
 }
 
