@@ -4,7 +4,7 @@
 /*affectation de la police */
 body {
     font-family: "Raleway", "Sans serif ";
-    margin: 15px;
+   margin: 15px;
     background-color: #DEEBFF;
 
 }
@@ -134,7 +134,7 @@ nav a {
 /****************************************************/
 /**......************************************************************************************/
 section {
-    margin: 5px;
+   /* margin: 5px;*/
     display: flex;
 
 }
@@ -434,29 +434,84 @@ footer {
    
     body {
         background-color: springgreen;
+        align-content: center;
     }
 
-    section {
+ section {
         display: flex;
-        flex-direction: column;
+       flex-direction: column; 
+        background-color: brown;
+        width: 100%;
     }
-   .blocpopulaire {
-       display: flex;
-       align-content: content: '\f134';;
+    .blochebergement {
+        display: grid;
+        margin: 15px;
+        flex: 1;
+        order: 2;
+        
+    }
+
+    .blochebergementimage {
+        margin: 20px;
+        display: flex;
+    }
+
+
+    .blocpopulaire {
+        display: flex;
+        order: 1;
+        
+        
+     }
        
+    .blocimg25 {
+        background-color: rgb(184, 250, 4);
+        display: flex;
+        width: 100%;
     }
-.imgpop {
-    width: auto;
-}
-/*************************************/
-.blocactiviteimage {
+   
+   .img25 {
+       background-color: darkslateblue;
+       width: 100%;
+       display: flex;
+     
+   }
+ 
+.img25 {
+   
+    display: flex;
     display: grid;
 }
-.ilgheb {
+/**********************************/
+.blocactiviteimage {
+    display: flex;
+    flex-direction: column;
+    background-color: darkslategrey;
+}
+
+.colonneactivite {
+    width: 100%;
+    background-color: darkslateblue;
+    padding: 10px;
+}
+
+.imgactgr {
+    width: 100%;
+   display: block;
+   overflow: hidden;
+}
+
+.imgheb {
     width: 100%;
 }
 
+footer {
+    display: flex;
+    flex-direction: column;
+}
 
+
+/*
 .blocativite {
     display: flex;
     flex-direction: column;
@@ -466,25 +521,21 @@ footer {
     flex-direction: column;
 }
 
-.imgactgr {
-    width: 100%;
-}
+.
 
  .imgactpetite {
      width: 100%;
  }
 
-footer {
-    display: grid;
-}
+
    
 
        
 
 
 }
-
-
+****/
+/*
 
 
 @media all and (max-device-width: 468px) {
@@ -496,8 +547,12 @@ footer {
     body {
         background-color: rgb(255, 230, 0);
     }
-
+ nav {
+     display: flex;
+     flex-wrap: wrap;
+ }
     nav a {
+        display: flex;
         font-size: 1rem;
         margin-right: 0px;
         justify-content: space-around;
@@ -522,3 +577,4 @@ footer {
     }
 }
 
+*/
