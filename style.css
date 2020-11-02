@@ -433,8 +433,22 @@ footer {
 
    
     body {
-        background-color: springgreen;
+       /* background-color: springgreen;*/
         align-content: center;
+    }
+
+
+    .filtre {
+        display: flex;
+        flex-wrap: wrap;
+    }
+.filtretexte{
+    margin: 0 0.5rem;
+}
+    .icone {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 5px;
     }
 
  section {
@@ -465,7 +479,7 @@ footer {
      }
        
     .blocimg25 {
-        background-color: rgb(184, 250, 4);
+     /*   background-color: rgb(184, 250, 4);*/
         display: flex;
         width: 100%;
     }
