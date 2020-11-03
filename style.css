@@ -125,7 +125,7 @@ nav a {
 
 /* iconnes------------------- */
 
-#filtre {
+.filtre {
     display: flex;
     justify-content: flex-start;
 }
@@ -183,10 +183,22 @@ section {
    
 }
 
+.fa-star {
+    color: #0065fc;
+    font-size: 0.7rem; 
+    margin-left: 1rem;
+    letter-spacing: -00.2rem;
+}
+
+.fa-star.claire {
+    color: #0a382a;
+}
+
+
 figcaption {
-    display: block;
+    display: inline-block;
     font-size: 0.75rem;
-    padding: 0.5rem;
+    margin-left: 1rem;
 }
 
 .titrebloc {
@@ -194,7 +206,7 @@ figcaption {
 }
 
 
-
+/*
 .blocimg75 {
 
     width: 100%;
@@ -203,7 +215,7 @@ figcaption {
     flex-wrap: nowrap;
     padding: 2px;
 
-}
+} */
 
 
 .img75 {
@@ -211,38 +223,55 @@ figcaption {
     padding: 1px 2px 1px 2px;
     flex-direction: column;
     white-space: normal;
-    border: 3px solid #ffffff;
+    border: 4px solid blue;
     background-color: #ffffff;
     border-radius: 1.5rem;
-  /* max-width: auto;
-    max-height: auto;
-*/
+    width: 25%;
 
-}
-.fa-star {
-    color: #0065fc;
-    font-size: 0.8rem;
-}
-
-.fa-star.claire {
-    color: #DEEBFF;
 }
 
 .imgheb {
 
     width: 100%;
-
-    max-width: 10.5rem;
-    max-height: 9.4rem;
-    min-width: 12.5rem;
-      min-height: 9.4rem;
     border-radius: 1.5rem;
-    padding: 2px;
+    /*
+    justify-content: center;
+    object-fit: cover;
+*/
+}
+
+.aminata {
+ 
+    
+}
+.lienherbergement {
+    text-decoration: none;
+    color: #000000;
+    border-radius: 1.5rem;
+   
+    overflow: hidden;
+    height: 200px;
+}
+/********bloc populaire****************************************/
+/******* position icone populaire*/
+.lienpopulaire {
+    text-decoration: none;
+    color: #000000;
+ /*   border-radius: 1.5rem;
+    border: 3px solid #ffffff;
+    background-color: #ffffff;
+    overflow: hidden;*/
+    display: inline-block;
+    width: 40%;
+    float: left;
+    
+
+
+    
 
 }
 
-/********bloc populaire****************************************/
-/******* position icone populaire*/
+
 .iconpop {
     display: flex;
     justify-content: flex-end;
@@ -254,10 +283,11 @@ figcaption {
 .blocimag25 {
     display: flex;
     flex-direction: column;
-    
+   
     align-content: center;
-    border-radius: 1.5rem;
-
+    
+    border-radius: 15px;
+    border: 3px solid red;
 
 }
 
@@ -268,20 +298,20 @@ figcaption {
  max-width: 30.00rem;
  padding: 3px;
  margin-inline-start: 1px;
- border-radius: 1.2rem;
+ 
  margin-inline-end: 5px;
-   
-
+   border-radius: 15px;
+ border: 3px solid #ad05fc;
+    background-color: #f70a9c;
 }
 
 
 .imgpop {
-   width: 7.5rem;
-    height: 8.0rem;
+    width: 130px;
 
-    border-radius: 1.2rem 0 0 1.2rem;
-    padding: 0.5rem;
     float: left;
+    height: 120px;
+    border-radius: 1rem 0 0 1rem;
 
 }
 
@@ -291,8 +321,9 @@ figcaption {
 }
 
 .hebdescriptif {
-    padding: 5px 5px 5px 5px;
+    margin-left: 15px;
 }
+/**
 
 .popdescriptif {
     padding-top: 1rem;
@@ -300,10 +331,7 @@ figcaption {
 
 }
 
-.liens {
-    text-decoration: none;
-    color: #000000;
-}
+
 
 /**conteneur activites *************************************************************************/
 /**************************************************/
@@ -428,12 +456,12 @@ footer {
 #assistance {}
 
 /*************************Responsive ******************************************/
-/******************************************************************************/
+/*****************************************************************************
 @media all and (max-device-width: 1024px) {
 
    
     body {
-       /* background-color: springgreen;*/
+      
         align-content: center;
     }
 
@@ -479,7 +507,7 @@ footer {
      }
        
     .blocimg25 {
-     /*   background-color: rgb(184, 250, 4);*/
+     
         display: flex;
         width: 100%;
     }
@@ -496,7 +524,7 @@ footer {
     display: flex;
     display: grid;
 }
-/**********************************/
+********************************
 .blocactiviteimage {
     display: flex;
     flex-direction: column;
@@ -525,7 +553,7 @@ footer {
 }
 
 
-/*
+----------------------------------------------------------------------
 .blocativite {
     display: flex;
     flex-direction: column;
