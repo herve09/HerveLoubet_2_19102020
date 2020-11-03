@@ -5,7 +5,8 @@
 body {
     font-family: "Raleway", "Sans serif ";
    margin: 15px;
-    background-color: #DEEBFF;
+     background-color: #DEEBFF;
+  
 
 }
 
@@ -143,9 +144,10 @@ section {
 
 .blochebergement,
 .blocpopulaire {
-    background-color: #f2f2f2;
+  background-color: #f2f2f2;
    border-radius: 1.5rem ;
    margin: 5px;
+   
 
 }
 
@@ -190,8 +192,9 @@ section {
     letter-spacing: -00.2rem;
 }
 
-.fa-star.claire {
-    color: #0a382a;
+.claire {
+    
+    color: #deebff;
 }
 
 
@@ -223,7 +226,7 @@ figcaption {
     padding: 1px 2px 1px 2px;
     flex-direction: column;
     white-space: normal;
-    border: 4px solid blue;
+    border: 4px solid #ffffff;
     background-color: #ffffff;
     border-radius: 1.5rem;
     width: 25%;
@@ -250,7 +253,7 @@ figcaption {
     border-radius: 1.5rem;
    
     overflow: hidden;
-    height: 200px;
+    height: 150px;
 }
 /********bloc populaire****************************************/
 /******* position icone populaire*/
@@ -287,7 +290,7 @@ figcaption {
     align-content: center;
     
     border-radius: 15px;
-    border: 3px solid red;
+    
 
 }
 
@@ -301,13 +304,13 @@ figcaption {
  
  margin-inline-end: 5px;
    border-radius: 15px;
- border: 3px solid #ad05fc;
-    background-color: #f70a9c;
+ border: 3px solid #ffffff;
+    background-color: #ffffff;
 }
 
 
 .imgpop {
-    width: 130px;
+    width: 100%;
 
     float: left;
     height: 120px;
