@@ -74,18 +74,28 @@ nav a {
     font-size: 1.6rem;
     border-radius: 50%;
    padding: 0.5rem;
+
    
 }
+
+i:hover {
+    background-color: #0065fc;
+    color: #deebff;
+}
+/***
+.fa-folder-plus, .fa-child, .fa-heart, .fa-dog, .fa,
+.fas:
+
 
 .fa,
 .fas {
     color: #0065fc;
     font-size: 1rem;
 
-    border-radius: 35px;
+   
     padding: 0px 2px 0px 2px;
 }
-
+******/
 /**************bordure des filtres et recherche ********/
 #filtre {
     margin-top: 2rem;
@@ -97,6 +107,9 @@ nav a {
     border-radius: 1.5rem;
 }
 
+.filtretitre {
+    padding-top: 1rem;
+}
 .filtretexte {
 
     font-size: 1rem;
@@ -106,12 +119,15 @@ nav a {
 
 .site-search {
     border: 1px solid #F2F2F2;
-    border-radius: 1.5rem;
+   
     font-size: 1.5rem;
 }
+
 .fa-map-marker-alt {
     font-size: 1.5rem;
     background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    
 }
 
 .boutonrecherche {
@@ -209,17 +225,6 @@ figcaption {
 }
 
 
-/*
-.blocimg75 {
-
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: nowrap;
-    padding: 2px;
-
-} */
-
 
 .img75 {
     display: flex;
@@ -237,16 +242,17 @@ figcaption {
 
     width: 100%;
     border-radius: 1.5rem;
-    /*
-    justify-content: center;
-    object-fit: cover;
-*/
-}
-
-.aminata {
- 
     
 }
+
+.aminata, .hotelmer {
+    
+    object-fit: cover;
+    height: 100%;
+    
+}
+
+
 .lienherbergement {
     text-decoration: none;
     color: #000000;
