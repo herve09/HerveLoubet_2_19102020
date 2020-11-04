@@ -266,10 +266,7 @@ figcaption {
 .lienpopulaire {
     text-decoration: none;
     color: #000000;
- /*   border-radius: 1.5rem;
-    border: 3px solid #ffffff;
-    background-color: #ffffff;
-    overflow: hidden;*/
+ 
     display: inline-block;
     width: 40%;
     float: left;
@@ -346,90 +343,63 @@ figcaption {
 /**************************************************/
 /*************************************************/
 
+
 .blocactiviteimage {
     width: 100%;
    
    
 }
-
-.colonneactivite1, .colonneactivite2, .colonneactivite3, .colonneactivite4 {
-    
-    display: flex;
-    flex-direction: column;
-    /* width: 100%;
-    height: 40rem;
-
-
-   /* overflow: hidden;*/
- width: 16rem;
-    height: 40rem;
-
-}
-.colonneactivite1 {
-    background-color: red;
-}
-
-.colonneactivite2 {
-    background-color: blue;
-}
-.colonneactivite1 {
-    background-color: green;
-}
-.colonneactivite1 {
-    background-color:yellow;
-}
-
-.blocactiviteimage {
-    display: flex;
-   
-}
-
-
-
-.imgactgr {
-  overflow: hidden;
-  /* 
-   width: 16rem;*/
-    height: 34rem; 
-    width: 15rem;
-    background-color: #ffffff;
-    border: 3px solid #f2f2f2;
-    border-radius: 1.5rem;
-     
-   margin-inline-start: 1rem;
-    margin-inline-end: 1rem;
-
-}
-
-/*****conteneur 2 images**************/
-.conteneur2images {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    
-   
-}
-.blocactiviteimage {
+.activite {
     display: flex;
     justify-content: space-around;
     
 }
 
-.image {
-    margin-inline-start: 1rem;
-    margin-inline-end: 1rem;
-    background-color: #ffffff;
-    border-radius: 1.5rem;
-    border: 3px solid #ffffff;
+.blocactivite {
+    width: 20%;
+    
+    
+    
 }
-.imgactpetite {
+
+.imgactivitegrd {
+    height: 30rem;
+    margin-inline-end: 0;
+    margin-inline-start: 0;
     overflow: hidden;
-    width: 16rem;
-    height:  11em;
-    border-radius: 1.5rem 1.5rem 0 0;
-   /**
-    margin-inline-start: 10px;
-    margin-inline-end: 10px;**/
+    background-color: wite;
+    border-radius: 15px;
+}
+
+.imgactgrande {
+    height: 27rem;
+}
+
+.imgactptt {
+    object-fit: cover;
+    height: 10.5rem;
+}
+
+
+
+.lienactiviteptt {
+    height: 10.5rem;
+display: flex;
+flex-direction: column;
+overflow: hidden;
+/*object-fit: cover;*/
+}
+
+
+.imgactiviteptt {
+width: 100%;      
+    margin-inline-end: 0;
+    margin-inline-start: 0;
+    overflow: hidden;
+    background-color: wite;
+    border-radius: 15px;
+    object-fit: cover;
+
 }
 
 
