@@ -38,7 +38,7 @@ header {
 
 .logo {
     display: flex;
-    /*flex-direction: row;*/
+    
     align-items: baseline;
 
 }
@@ -46,6 +46,7 @@ header {
 /* navigation--------------------------*/
 nav {
     vertical-align: top;
+    margin-right: 2rem;
     
 
 }
@@ -82,20 +83,7 @@ i:hover {
     background-color: #0065fc;
     color: #deebff;
 }
-/***
-.fa-folder-plus, .fa-child, .fa-heart, .fa-dog, .fa,
-.fas:
 
-
-.fa,
-.fas {
-    color: #0065fc;
-    font-size: 1rem;
-
-   
-    padding: 0px 2px 0px 2px;
-}
-******/
 /**************bordure des filtres et recherche ********/
 #filtre {
     margin-top: 2rem;
@@ -140,18 +128,21 @@ i:hover {
     background-color: #487dcc;
 }
 
-/* iconnes------------------- */
+/* icones------------------- */
 
 .filtre {
     display: flex;
     justify-content: flex-start;
 }
+
+.fas, .fa-info {
+    color: #0065fc;
+    margin: 10px;
+    background-color: #f2f2f2;
+}
 /*************************************************/
-/***************************************************/
-/****************************************************/
-/**......************************************************************************************/
 section {
-   /* margin: 5px;*/
+   
     display: flex;
 
 }
@@ -168,7 +159,7 @@ section {
 }
 
 .blochebergement {
-    /*flex: 1; responsive nomme class*/
+    
     display: flex;
     flex-wrap: wrap;
     
@@ -184,10 +175,10 @@ section {
     
 
 }
-/*******************************************/
+
 /*****************************************/
 .blocpopulaire {
-    order: 1; /* resposive nomme class*/
+    order: 1; 
     
     display: flex;
     flex-direction: column;
@@ -203,9 +194,9 @@ section {
 
 .fa-star {
     color: #0065fc;
-    font-size: 0.7rem; 
+    font-size: 0.9rem; 
     margin-left: 1rem;
-    letter-spacing: -00.2rem;
+  letter-spacing: -50ch;
 }
 
 .claire {
@@ -261,8 +252,13 @@ figcaption {
     overflow: hidden;
     height: 150px;
 }
-/********bloc populaire****************************************/
-/******* position icone populaire*/
+/*****
+.hebergementetoile {
+    font-size: 0.6rem;
+    word-spacing: -30px;
+}
+***bloc populaire****************************************/
+
 .lienpopulaire {
     text-decoration: none;
     color: #000000;
@@ -329,19 +325,10 @@ figcaption {
 .hebdescriptif {
     margin-left: 1rem;
 }
-/**
-
-.popdescriptif {
-    padding-top: 1rem;
-    padding-left: 50px;
-
-}
-
 
 
 /**conteneur activites *************************************************************************/
-/**************************************************/
-/*************************************************/
+
 
 
 .blocactiviteimage {
@@ -357,6 +344,7 @@ figcaption {
 
 .blocactivite {
     width: 20%;
+    justify-content: center;
     
     
     
@@ -388,7 +376,7 @@ figcaption {
 display: flex;
 flex-direction: column;
 overflow: hidden;
-/*object-fit: cover;*/
+
 text-decoration: none;
     color: #000000;
 }
@@ -408,8 +396,7 @@ width: 100%;
 
 
 /****************************************************************footer************/
-/*******************************************************/
-/*********************************************************/
+
 footer {
     display: flex;
     flex-direction: row;
@@ -439,13 +426,18 @@ footer {
 #assistance {}
 
 /*************************Responsive ******************************************/
-/*****************************************************************************
+/****/
+/****/
+/***/
+/***/
+
 @media all and (max-device-width: 1024px) {
 
    
     body {
-      
+       max-width: auto;
         align-content: center;
+        background-color: fuchsia;
     }
 
 
@@ -465,14 +457,56 @@ footer {
  section {
         display: flex;
        flex-direction: column; 
-        background-color: brown;
-        width: 100%;
+        background-color: rgb(21, 79, 240);
+        max-width: 90%;
+        margin: 25px;
+        
     }
+/***************************************************/
+
+
+
+    .blocpopulaire {
+        display: flex;
+        order: 1;
+        background-color: red;
+        width: 100%;
+        
+     }
+       
+    .blocimg25 {
+     
+        display: flex;
+        width: 100%;
+        justify-content: center;
+
+    }
+
+
+   .lienpopulaire {
+       width: 90%;
+       display: flex;
+       flex-wrap: nowrap;
+   }
+
+   .img25 {
+       background-color: darkslateblue;
+       width: 100%;
+       display: flex;
+      top: 1rem;
+      margin: 1rem;
+   }
+
+
+/****************************************************************/
+
+
     .blochebergement {
         display: grid;
         margin: 15px;
         flex: 1;
         order: 2;
+        
         
     }
 
@@ -482,32 +516,34 @@ footer {
     }
 
 
-    .blocpopulaire {
-        display: flex;
-        order: 1;
-        
-        
-     }
-       
-    .blocimg25 {
-     
-        display: flex;
-        width: 100%;
-    }
-   
-   .img25 {
-       background-color: darkslateblue;
-       width: 100%;
-       display: flex;
-     
-   }
- 
-.img25 {
-   
-    display: flex;
-    display: grid;
+.img75 {
+    width: 100%;
+    object-fit: cover;
+    
 }
-********************************
+ 
+.imgheb {
+    width: 100%;
+
+}  
+/************************************************************/
+
+
+/*activite*****************/
+.activite {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+.blocactivite {
+    width: auto;
+    justify-content: center;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+}
 .blocactiviteimage {
     display: flex;
     flex-direction: column;
@@ -520,23 +556,31 @@ footer {
     padding: 10px;
 }
 
-.imgactgr {
-    width: 100%;
-   display: block;
-   overflow: hidden;
-}
-
-.imgheb {
-    width: 100%;
-}
-
-footer {
+.imgactivitegrd {
+   height: 13.5rem;
+   /*  width: 100%;*/
     display: flex;
     flex-direction: column;
 }
 
+.imgactgrande {
+   width: 100%;
+    height: 10.5rem;
+ display: block;
+   overflow: hidden;
+}
+/* 
+.imgactgr {
+    height: 9.5rem;
+}
+*/
 
-----------------------------------------------------------------------
+
+
+
+
+
+
 .blocativite {
     display: flex;
     flex-direction: column;
@@ -555,11 +599,19 @@ footer {
 
    
 
-       
+ footer {
+    display: flex;
+    flex-direction: column;
+}
+     
 
 
 }
-****/
+
+
+
+
+
 /*
 
 
