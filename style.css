@@ -161,7 +161,7 @@ section {
 .blochebergement,
 .blocpopulaire {
   background-color: #f2f2f2;
-   border-radius: 1.5rem ;
+   border-radius: 1.2rem ;
    margin: 5px;
    
 
@@ -233,7 +233,7 @@ figcaption {
     white-space: normal;
     border: 4px solid #ffffff;
     background-color: #ffffff;
-    border-radius: 1.5rem;
+    border-radius: 1.2rem;
     width: 25%;
 
 }
@@ -241,7 +241,7 @@ figcaption {
 .imgheb {
 
     width: 100%;
-    border-radius: 1.5rem;
+    border-radius: 1.2rem;
     
 }
 
@@ -256,7 +256,7 @@ figcaption {
 .lienherbergement {
     text-decoration: none;
     color: #000000;
-    border-radius: 1.5rem;
+    border-radius: 1.2rem;
    
     overflow: hidden;
     height: 150px;
@@ -292,7 +292,7 @@ figcaption {
    
     align-content: center;
     
-    border-radius: 15px;
+    border-radius: 1.2rem;
     
 
 }
@@ -306,7 +306,7 @@ figcaption {
  margin-inline-start: 1px;
  
  margin-inline-end: 5px;
-   border-radius: 15px;
+   border-radius: 1.2rem;
  border: 3px solid #ffffff;
     background-color: #ffffff;
 }
@@ -316,7 +316,7 @@ figcaption {
     width: 100%;
 
     float: left;
-    height: 120px;
+    height: 7.5rem;
     border-radius: 1rem 0 0 1rem;
 
 }
@@ -327,7 +327,7 @@ figcaption {
 }
 
 .hebdescriptif {
-    margin-left: 15px;
+    margin-left: 1rem;
 }
 /**
 
@@ -368,7 +368,8 @@ figcaption {
     margin-inline-start: 0;
     overflow: hidden;
     background-color: wite;
-    border-radius: 15px;
+    border-radius: 1.2rem;
+    background-color: #ffffff;
 }
 
 .imgactgrande {
@@ -388,6 +389,8 @@ display: flex;
 flex-direction: column;
 overflow: hidden;
 /*object-fit: cover;*/
+text-decoration: none;
+    color: #000000;
 }
 
 
@@ -397,8 +400,9 @@ width: 100%;
     margin-inline-start: 0;
     overflow: hidden;
     background-color: wite;
-    border-radius: 15px;
+    border-radius: 1.2rem;
     object-fit: cover;
+    background-color: #ffffff;
 
 }
 
