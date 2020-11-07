@@ -4,29 +4,44 @@
 /*affectation de la police */
 body {
     font-family: "Raleway", "Sans serif ";
-   margin: 15px;
-     background-color: #DEEBFF;
-  
-
+    margin: 10px;
+    background-color: #DEEBFF;
 }
 
 
 
 h1 {
-    font-size: 1.25rem;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
 h2 {
-    font-size: 1.15rem;
+    font-size: 1.45rem;
     font-weight: bold;
 }
 
 h3 {
-    font-size: 1rem;
+    font-size: 1.35rem;
     font-weight: bold;
 }
 
+h4 {
+    font-size: 1.20rem;
+    font-weight: bold;
+}
+
+h5{
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+h6 {
+    font-size: 1.10rem;
+    font-weight: bold;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
 
 header {
     display: flex;
@@ -38,7 +53,7 @@ header {
 
 .logo {
     display: flex;
-    
+
     align-items: baseline;
 
 }
@@ -47,7 +62,7 @@ header {
 nav {
     vertical-align: top;
     margin-right: 2rem;
-    
+
 
 }
 
@@ -55,49 +70,53 @@ nav ul {
     list-style-type: none;
     display: flex;
     vertical-align: top;
+    justify-content: center;
 }
 
 nav li {
+    display: flex;
     margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    width: 9rem;
+    height: 2rem;
+    justify-content: center;
+
 }
 
 nav a {
 
     font-size: 1.2em;
     padding-bottom: 2px;
-    text-decoration: none;
+
+
 }
 
-
-.fa-folder-plus, .fa-child, .fa-heart, .fa-dog {
-    color: #0065fc;
-    background-color: #DEEBFF;
-    font-size: 1.6rem;
-    border-radius: 50%;
-   padding: 0.5rem;
-
-   
-}
-
-i:hover {
-    background-color: #0065fc;
-    color: #deebff;
+nav li:hover {
+    background: #0065fc;
+    color: #deebff
 }
 
 /**************bordure des filtres et recherche ********/
 #filtre {
     margin-top: 2rem;
 }
- .icone {
+
+.icone {
     background-color: #ffffff;
-  margin: 15px;
+    margin: 15px;
     border: 2px solid rgb(161, 161, 161);
     border-radius: 1.5rem;
+}
+
+.icone:hover {
+    background-color: #deebff;
+    border-color: #0065fc;
 }
 
 .filtretitre {
     padding-top: 1rem;
 }
+
 .filtretexte {
 
     font-size: 1rem;
@@ -107,7 +126,7 @@ i:hover {
 
 .site-search {
     border: 1px solid #F2F2F2;
-   
+
     font-size: 1.5rem;
 }
 
@@ -115,7 +134,7 @@ i:hover {
     font-size: 1.5rem;
     background-color: #f2f2f2;
     border: 1px solid #f2f2f2;
-    
+
 }
 
 .boutonrecherche {
@@ -124,25 +143,50 @@ i:hover {
     border-radius: 0 1rem 1rem 0;
     color: #ffffff;
 }
+
 .bottonrecherche:hover {
-    background-color: #487dcc;
+    background-color: #deebff;
 }
 
 /* icones------------------- */
+.fa-folder-plus,
+.fa-child,
+.fa-heart,
+.fa-dog {
+    color: #0065fc;
+    background-color: #DEEBFF;
+    font-size: 1.6rem;
+    border-radius: 50%;
+    padding: 0.5rem;
+
+
+}
+
+i:hover {
+    background-color: #0065fc;
+    color: #deebff;
+}
+
 
 .filtre {
     display: flex;
     justify-content: flex-start;
 }
 
-.fas, .fa-info {
+.filtre:hover {
+    background-color: #deebff;
+}
+
+.fas,
+.fa-info {
     color: #0065fc;
     margin: 10px;
     background-color: #f2f2f2;
 }
+
 /*************************************************/
 section {
-   
+
     display: flex;
 
 }
@@ -151,20 +195,20 @@ section {
 
 .blochebergement,
 .blocpopulaire {
-  background-color: #f2f2f2;
-   border-radius: 1.2rem ;
-   margin: 5px;
-   
+    background-color: #f2f2f2;
+    border-radius: 1.2rem;
+    margin: 5px;
+
 
 }
 
 .blochebergement {
-    
+
     display: flex;
     flex-wrap: wrap;
-    
-   
-    
+
+
+
 
 }
 
@@ -172,14 +216,14 @@ section {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    
+
 
 }
 
 /*****************************************/
 .blocpopulaire {
-    order: 1; 
-    
+    order: 1;
+
     display: flex;
     flex-direction: column;
 
@@ -189,18 +233,18 @@ section {
 
 .fa-chart-line {
     margin-left: 6rem;
-   
+
 }
 
 .fa-star {
     color: #0065fc;
-    font-size: 0.9rem; 
+    font-size: 0.9rem;
     margin-left: 1rem;
-  letter-spacing: -50ch;
+    letter-spacing: -50ch;
 }
 
 .claire {
-    
+
     color: #deebff;
 }
 
@@ -233,43 +277,31 @@ figcaption {
 
     width: 100%;
     border-radius: 1.2rem;
-    
+
 }
 
-.aminata, .hotelmer {
-    
+.aminata,
+.hotelmer {
+
     object-fit: cover;
     height: 100%;
-    
+
 }
 
 
 .lienherbergement {
-    text-decoration: none;
-    color: #000000;
     border-radius: 1.2rem;
-   
     overflow: hidden;
     height: 150px;
 }
-/*****
-.hebergementetoile {
-    font-size: 0.6rem;
-    word-spacing: -30px;
-}
-***bloc populaire****************************************/
+
+
 
 .lienpopulaire {
-    text-decoration: none;
-    color: #000000;
- 
+
     display: inline-block;
     width: 40%;
     float: left;
-    
-
-
-    
 
 }
 
@@ -278,39 +310,34 @@ figcaption {
     display: flex;
     justify-content: flex-end;
     text-align: right;
-    
+
 }
 
 
 .blocimag25 {
     display: flex;
     flex-direction: column;
-   
     align-content: center;
-    
     border-radius: 1.2rem;
-    
 
 }
 
 .img25 {
 
- max-height: 9.5rem;
- min-width: 18.00rem;
- max-width: 30.00rem;
- padding: 3px;
- margin-inline-start: 1px;
- 
- margin-inline-end: 5px;
-   border-radius: 1.2rem;
- border: 3px solid #ffffff;
+    max-height: 9.5rem;
+    min-width: 18.00rem;
+    max-width: 30.00rem;
+    padding: 3px;
+    margin-inline-start: 1px;
+    margin-inline-end: 5px;
+    border-radius: 1.2rem;
+    border: 3px solid #ffffff;
     background-color: #ffffff;
 }
 
 
 .imgpop {
     width: 100%;
-
     float: left;
     height: 7.5rem;
     border-radius: 1rem 0 0 1rem;
@@ -327,73 +354,47 @@ figcaption {
 }
 
 
-/**conteneur activites *************************************************************************/
+/**conteneur activites ***************************************************************/
+/*********************************/
+/*********************************/
 
 
-
-.blocactiviteimage {
-    width: 100%;
-   
-   
-}
 .activite {
     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    
     justify-content: space-around;
-    
 }
-
 .blocactivite {
+   display: flex;
+   flex-direction: column;
+    
     width: 20%;
-    justify-content: center;
-    
-    
-    
 }
 
-.imgactivitegrd {
-    height: 30rem;
-    margin-inline-end: 0;
-    margin-inline-start: 0;
-    overflow: hidden;
-    background-color: wite;
-    border-radius: 1.2rem;
+.lienactivitegrd {
     background-color: #ffffff;
+    margin-bottom: 0.5rem;
+    border-radius: 1.2rem 1.2rem;
 }
 
-.imgactgrande {
-    height: 27rem;
+
+.imgact {
+    width: 100%;
+    overflow: hidden;
+    height: 29rem;
+    object-fit: cover;
+    border-radius: 1.2rem 1.2rem 0 0;
 }
 
 .imgactptt {
-    object-fit: cover;
-    height: 10.5rem;
-}
-
-
-
-.lienactiviteptt {
-    height: 10.5rem;
-display: flex;
-flex-direction: column;
-overflow: hidden;
-
-text-decoration: none;
-    color: #000000;
-}
-
-
-.imgactiviteptt {
-width: 100%;      
-    margin-inline-end: 0;
-    margin-inline-start: 0;
+    width: 100%;
+    height: 11rem;
     overflow: hidden;
-    background-color: wite;
-    border-radius: 1.2rem;
     object-fit: cover;
-    background-color: #ffffff;
-
+    border-radius: 1.2rem 1.2rem 0 0;
 }
-
 
 /****************************************************************footer************/
 
@@ -410,14 +411,13 @@ footer {
 #noshebergements,
 #assistance {
     width: 16rem;
-
     font-size: 1rem;
     padding: 0.5rem;
 
 }
 
 #apropos {
-  /*  padding-right: 9.5rem;*/
+    /*  padding-right: 9.5rem;*/
 
 }
 
@@ -433,11 +433,11 @@ footer {
 
 @media all and (max-device-width: 1024px) {
 
-   
+
     body {
-       max-width: auto;
+        max-width: auto;
         align-content: center;
-        background-color: fuchsia;
+
     }
 
 
@@ -445,60 +445,62 @@ footer {
         display: flex;
         flex-wrap: wrap;
     }
-.filtretexte{
-    margin: 0 0.5rem;
-}
+
+    .filtretexte {
+        margin: 0 0.5rem;
+    }
+
     .icone {
         display: flex;
         flex-wrap: wrap;
         margin: 5px;
     }
 
- section {
+    section {
         display: flex;
-       flex-direction: column; 
+        flex-direction: column;
         background-color: rgb(21, 79, 240);
-        max-width: 90%;
+        max-width: 100%;
         margin: 25px;
-        
+
     }
-/***************************************************/
 
-
+    /***************************************************/
 
     .blocpopulaire {
         display: flex;
         order: 1;
         background-color: red;
         width: 100%;
-        
-     }
-       
+
+    }
+
     .blocimg25 {
-     
+
         display: flex;
         width: 100%;
         justify-content: center;
 
     }
 
+    
 
-   .lienpopulaire {
-       width: 90%;
-       display: flex;
-       flex-wrap: nowrap;
-   }
+    .lienpopulaire {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+    }
 
-   .img25 {
-       background-color: darkslateblue;
-       width: 100%;
-       display: flex;
-      top: 1rem;
-      margin: 1rem;
-   }
+    .img25 {
+        background-color: darkslateblue;
+        width: 100%;
+        display: flex;
+        top: 1rem;
+        margin: 1rem;
+    }
 
 
-/****************************************************************/
+    /****************************************************************/
 
 
     .blochebergement {
@@ -506,8 +508,8 @@ footer {
         margin: 15px;
         flex: 1;
         order: 2;
-        
-        
+
+
     }
 
     .blochebergementimage {
@@ -516,123 +518,95 @@ footer {
     }
 
 
-.img75 {
-    width: 100%;
-    object-fit: cover;
-    
-}
- 
-.imgheb {
-    width: 100%;
+    .img75 {
+        width: 100%;
+        object-fit: cover;
 
-}  
-/************************************************************/
-
-
-/*activite*****************/
-.activite {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-
-
-.blocactivite {
-    width: auto;
-    justify-content: center;
-    margin: 1rem;
-    display: flex;
-    flex-direction: column;
-}
-.blocactiviteimage {
-    display: flex;
-    flex-direction: column;
-    background-color: darkslategrey;
-}
-
-.colonneactivite {
-    width: 100%;
-    background-color: darkslateblue;
-    padding: 10px;
-}
-
-.imgactivitegrd {
-   height: 13.5rem;
-   /*  width: 100%;*/
-    display: flex;
-    flex-direction: column;
-}
-
-.imgactgrande {
-   width: 100%;
-    height: 10.5rem;
- display: block;
-   overflow: hidden;
-}
-/* 
-.imgactgr {
-    height: 9.5rem;
-}
-*/
-
-
-
-
-
-
-
-.blocativite {
-    display: flex;
-    flex-direction: column;
-}
-.blocactiviteimage {
-    display: flex;
-    flex-direction: column;
-}
-
-.
-
- .imgactpetite {
-     width: 100%;
- }
-
-
-   
-
- footer {
-    display: flex;
-    flex-direction: column;
-}
-     
-
-
-}
-
-
-
-
-
-/*
-
-
-@media all and (max-device-width: 468px) {
-    .barrerecherche {
-        display: flex;
-        width: 10rem;
     }
+
+    .imgheb {
+        width: 100%;
+
+    }
+
+    /************************************************************/
+
+
+    /*activite*****************/
+    .activite {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+
+    .blocactivite {
+        width: auto;
+        justify-content: center;
+        margin: 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+
     
+
+
+    .imgact {
+        width: 100%;
+        height: 10.5rem;
+        display: block;
+        overflow: hidden;
+    }
+
+  
+  
+
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+
+}
+
+
+
+
+
+/*******************************************************************/
+/******************/
+/****************/
+/*****************/
+
+
+@media all and (max-device-width: 640px) {
+
+
     body {
         background-color: rgb(255, 230, 0);
+        max-width: 100%;
+
     }
- nav {
-     display: flex;
-     flex-wrap: wrap;
- }
+
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
     nav a {
         display: flex;
         font-size: 1rem;
         margin-right: 0px;
         justify-content: space-around;
+    }
+
+    .barrerecherche {
+        display: flex;
+        width: 10rem;
     }
 
 
@@ -641,17 +615,37 @@ footer {
     }
 
     .filtre {
-        display: flex;
-       max-width: 360px;
+        display: 23rem;
         justify-content: space-between;
         margin: 0px;
     }
+
     .filtretexte {
         margin: 0 0.2rem 0 0.2rem;
         font-size: 1.0rem;
         text-align: center;
-       
-    }
-}
 
-*/
+    }
+
+    section {
+        min-width: auto;
+        /*width: auto;*/
+        background: greenyellow;
+    }
+
+    aside {
+        max-width: 100%;
+        background-color: hotpink;
+    }
+
+    .blocpopulaire {
+        display: flex;
+        order: 1;
+        background-color: red;
+        width: 100%;
+
+    }
+
+
+    /**************************************/
+}
