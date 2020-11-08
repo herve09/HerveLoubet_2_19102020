@@ -396,7 +396,7 @@ figcaption {
     border-radius: 1.2rem 1.2rem 0 0;
 }
 
-/****************************************************************footer************/
+/**********************************footer************/
 
 footer {
     display: flex;
@@ -431,7 +431,7 @@ footer {
 /***/
 /***/
 
-@media all and (max-device-width: 1024px) {
+@media all and (min-device-heiht: 640px) and (max-device-width: 1024px) {
 
 
     body {
@@ -574,22 +574,20 @@ footer {
 
 
 
+/* ! reponsive en 640 */
 
-/*******************************************************************/
-/******************/
-/****************/
-/*****************/
+/* ? voir pourquoi le body ne rete pas en plein ecran */
 
-
-@media all and (max-device-width: 640px) {
+@media all and (max-device-width: 639px) {
 
 
     body {
         background-color: rgb(255, 230, 0);
-        max-width: 100%;
+        max-width: 639px;
 
     }
 
+/*! menu****/
 
     nav {
         display: flex;
@@ -604,6 +602,8 @@ footer {
         justify-content: space-around;
     }
 
+
+    /* ! recherche **/
     .barrerecherche {
         display: flex;
         width: 10rem;
@@ -614,9 +614,11 @@ footer {
         width: 10rem;
     }
 
+    /**! filtres****/
     .filtre {
-        display: 23rem;
-        justify-content: space-between;
+        display: flex;
+        flex-wrap: wrap;
+       
         margin: 0px;
     }
 
@@ -627,25 +629,112 @@ footer {
 
     }
 
-    section {
-        min-width: auto;
-        /*width: auto;*/
-        background: greenyellow;
-    }
 
-    aside {
-        max-width: 100%;
-        background-color: hotpink;
-    }
+    /**! section ***/
+
+    section {
+            display: flex;
+            flex-direction: column;
+            background-color: rgb(255, 2, 99);
+           max-width: auto;
+           /* width: 100%;
+           max-width: 600px;
+          width: 800px;
+             margin: 5px;*/
+    
+        }
+
+/**! bloc hebergement ****/
+
+        .blochebergement {
+            display: flex;
+            flex-direction: column;
+            flex: 1;
+            order: 2;
+    
+    
+        }
+
+
+.blochebergementimage {
+    display: flex;
+    flex-direction: column;
+}
+
+        .img75 {
+            display: flex;
+            padding: 1px 2px 1px 2px;
+            flex-direction: column;
+            white-space: normal;
+            border: 4px solid #ffffff;
+            background-color: #ffffff;
+            border-radius: 1.2rem;
+            /* width: 25%; */
+        }
+  
+  /*****!bloc populaire */
 
     .blocpopulaire {
         display: flex;
         order: 1;
-        background-color: red;
-        width: 100%;
+      /*  background-color: red;*/
+        width: 640px;
 
     }
 
+    .img25 {
+        max-height: 55rem; 
+        
+        max-width: auto;
+        padding: 3px;
+        margin-inline-start: 1px;
+        margin-inline-end: 5px;
+        border-radius: 1.2rem;
+        border: 3px solid #ffffff;
+        background-color: #ffffff;
+    }
+/********!bloc acitivité*/
 
-    /**************************************/
+    aside {
+        max-width: 640px;
+        background-color: hotpink;
+    }
+
+
+    .activite {
+        display: flex;
+        flex-direction: column;
+         max-width: 640px;
+         width: 100%;
+     }
+
+     .blocactivite {
+         width: 100%;
+     }
+
+     .blocimag25 {
+        width: 100%;
+     }
+     .imgact {
+        width: 100%;
+        height: 10.5rem;
+        display: block;
+        overflow: hidden;
+    }
+
+    .imgactptt {
+        width: 100%;
+        height: 10.5rem;
+        display: block;
+        overflow: hidden;
+        margin: auto;
+    }
+
+    .lienactivitegrd {
+        background-color: #ffffff;
+        margin-bottom: 1rem;
+        border-radius: 1.2rem 1.2rem;
+        width: 90%;
+    }
 }
+
