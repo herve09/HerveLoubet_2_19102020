@@ -423,23 +423,21 @@ font-size: 1rem;
 margin-top: 0;
 }
 
-#apropos,
-#noshebergements,
-#assistance {
+.apropos, .noshebergements, .assistance {
     width: 33%;
     font-size: 1rem;
     padding: 0.5rem;
-  /*  background-color: #a50f0f;*/
+   background-color: #f2f2f2;
 }
 
-#apropos {
+.apropos {
     /*  padding-right: 9.5rem;*/
 
 }
 
-#noshebergements {}
+.noshebergements {}
 
-#assistance {}
+.assistance {}
 
 /*************************Responsive ******************************************/
 /****/
