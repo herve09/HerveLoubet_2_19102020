@@ -103,14 +103,15 @@ nav li:hover {
 
 .icone {
     background-color: #ffffff;
-    margin: 15px;
+    margin: 20px;
     border: 2px solid rgb(161, 161, 161);
     border-radius: 1.5rem;
 }
 
 .icone:hover {
-    background-color: #deebff;
-    border-color: #0065fc;
+    background-color: #0065fc;
+    border-color: #deebff;
+
 }
 
 .filtretitre {
@@ -128,6 +129,7 @@ nav li:hover {
     border: 1px solid #F2F2F2;
 
     font-size: 1.5rem;
+    margin-left: -5px;
 }
 
 .fa-map-marker-alt {
@@ -142,6 +144,7 @@ nav li:hover {
     font-size: 1.2rem;
     border-radius: 0 1rem 1rem 0;
     color: #ffffff;
+    margin-left: -5px;
 }
 
 .bottonrecherche:hover {
@@ -180,7 +183,7 @@ i:hover {
 .fas,
 .fa-info {
     color: #0065fc;
-    margin: 10px;
+    
     background-color: #f2f2f2;
 }
 
@@ -373,6 +376,10 @@ figcaption {
     width: 20%;
 }
 
+.activitetitre {
+    margin-left: 10px;
+}
+
 .lienactivitegrd {
     background-color: #ffffff;
     margin-bottom: 0.5rem;
@@ -401,19 +408,28 @@ figcaption {
 footer {
     display: flex;
     flex-direction: row;
-    background-color: #f2f2f2;
-
+  
 
 }
 
+ul {
+list-style: none
+/*padding-inline-start: 0px;*/
+}
+
+.footerliste {
+    /*background-color: blue;*/
+font-size: 1rem;
+margin-top: 0;
+}
 
 #apropos,
 #noshebergements,
 #assistance {
-    width: 16rem;
+    width: 33%;
     font-size: 1rem;
     padding: 0.5rem;
-
+  /*  background-color: #a50f0f;*/
 }
 
 #apropos {
@@ -431,19 +447,18 @@ footer {
 /***/
 /***/
 
-@media all and (min-device-heiht: 640px) and (max-device-width: 1024px) {
+@media all and (min-device-width: 640px) and (max-device-width: 1024px) {
 
 
     body {
-        max-width: auto;
+       width: 100%;
         align-content: center;
         min-width: 640px;
     }
-
-
+    
     .filtre {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
     }
 
     .filtretexte {
@@ -584,6 +599,8 @@ footer {
     body {
         background-color: rgb(255, 230, 0);
         max-width: 639px;
+        width: 95%;
+       
 
     }
 
@@ -636,14 +653,14 @@ footer {
             display: flex;
             flex-direction: column;
             background-color: rgb(255, 2, 99);
-           max-width: auto;
-           /* width: 100%;
-           max-width: 600px;
+         /*
+            width: 98%;
+          max-width: 600px;
           width: 800px;
              margin: 5px;*/
     
         }
-
+        
 /**! bloc hebergement ****/
 
         .blochebergement {
@@ -651,6 +668,7 @@ footer {
             flex-direction: column;
             flex: 1;
             order: 2;
+    justify-content: center;
     
     
         }
@@ -683,7 +701,7 @@ footer {
         display: flex;
         order: 1;
       /*  background-color: red;*/
-       width: 100%;
+      
 
     }
 
@@ -709,13 +727,14 @@ footer {
     aside {
         max-width: 640px;
         background-color: hotpink;
+        width: 100%;
     }
 
 
     .activite {
         display: flex;
         flex-direction: column;
-         max-width: 640px;
+        
          width: 100%;
      }
 
@@ -745,7 +764,15 @@ footer {
         background-color: #ffffff;
         margin-bottom: 1rem;
         border-radius: 1.2rem 1.2rem;
-        width: 90%;
+        width: 100%;
+    }
+
+    /* ! footer ****/
+    
+
+    footer {
+        display: flex;
+        flex-direction: column;
     }
 }
 
