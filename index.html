@@ -27,9 +27,9 @@
         <!--debut du menu-->
         <nav>
             <ul>
-                <li><a href="#hebergement">Hébergements</a></li>
-                <li><A href="#activite">Activités</a></li>
-                <li><a href="#">S'inscrire</a></li>
+                <li><a class="menucouleur" href="#hebergement">Hébergements</a></li>
+                <li><a href="#activite">Activités</a></li>
+                <li><a class="menucouleur" href="#">S'inscrire</a></li>
 
             </ul>
         </nav>
@@ -52,7 +52,10 @@
             <input type="search" class="site-search" placeholder="Marseille France" name="q"
                 aria-label="Search through site content">
 
-            <button class="boutonrecherche">Rechercher</button>
+            <button class="boutonrecherche">
+                 <span class="recherchetexte">Recherche</span>
+                <i class="fas fa-search loupe"> </i>
+            </button>
         </div>
 
         <!--fin barre de recherche-->
@@ -101,7 +104,7 @@
 
         <main class="blochebergement">
 
-            <div class="titrebloc">
+            <div class="titrehebergement">
                 <h4>Hébergement</h4>
             </div>
             <div class="blochebermentimage">
@@ -113,7 +116,7 @@
                             alt="Auberge la Cannebière">
                     </a>
                     <figcaption>
-                        <h6>Auberge La Cannibière</h6>
+                        <h6 class="titrebloc">Auberge La Cannibière</h6>
                         <p>Nuit à partir de <span class="prix">25€</span></p>
                     </figcaption>
                     <div class="etoile">
@@ -133,7 +136,7 @@
                             alt="Hôtel du Port">
                     </a>
                     <figcaption>
-                        <h6>Hôtel du port</h6>
+                        <h6 class="titrebloc">Hôtel du port</h6>
                         <p>Nuit à partir de <span class="prix">53€</span></p>
                     </figcaption>
                     <div class="hebergementetoile">
@@ -154,7 +157,7 @@
                     </a>
 
                     <figcaption>
-                        <h6>Hôtel Les Mouettes</h6>
+                        <h6 class="titrebloc">Hôtel Les Mouettes</h6>
                         <p>Nuit à partir de <span class="prix">25€</span></p>
                     </figcaption>
 
@@ -179,7 +182,7 @@
                             alt="Hôtel de la Mer">
                     </a>
                     <figcaption>
-                        <h6>Hôtel de la mer</h6>
+                        <h6 class="titrebloc">Hôtel de la mer</h6>
                         <p>Nuit à partir de<span class="prix">46€</span></p>
                     </figcaption>
 
@@ -200,7 +203,7 @@
                             alt="Auberge la Cannebière">
                     </a>
                     <figcaption>
-                        <h6>Hôtel Le Panier</h6>
+                        <h6 class="titrebloc">Hôtel Le Panier</h6>
                         <p>Nuit à partir de <span class="prix">23€</span></p>
                     </figcaption>
 
@@ -220,7 +223,7 @@
                             alt="chez aminata">
                     </a>
                     <figcaption>
-                        <h6>Chez Aminata</h6>
+                        <h6 class="titrebloc">Chez Aminata</h6>
                         <p>Nuit à partir de <span class="prix">23€</span></p>
                     </figcaption>
 
@@ -237,7 +240,7 @@
 
             </div>
             <div class="titrebloc">
-                <h4>Afficher plus</h4>
+                <h4 class="titrehebergement">Afficher plus</h4>
             </div>
         </main>
 
@@ -264,10 +267,10 @@
                             <img class="imgpop"
                                 src="ressources/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
                                 alt="Hôtel Le Soleil du Matin">
-                        </a>
-
+                       
+                            </a>
                         <figcaption class="popdescriptif">
-                            <h6>Hôtel Le Soleil <br> du Matin</h6>
+                            <h6 class="titrebloc">Hôtel Le Soleil <br> du Matin</h6>
                             <p>Nuit à partir de <span class="prix">120€</span></p>
 
 
@@ -281,7 +284,7 @@
                             </div>
 
                         </figcaption>
-
+                    
 
                     </figure>
 
@@ -300,7 +303,7 @@
                                 alt="Au Coeur de L'eau Maison d'hôtes">
                         </a>
                         <figcaption class="popdescriptif">
-                            <h6>Au Coeur de L'eau <br> Maison d'hôtes</h6>
+                            <h6 class="titrebloc">Au Coeur de L'eau <br> Maison d'hôtes</h6>
                             <p>Nuit à partir de <span class="prix">73€</span></p>
 
 
@@ -333,7 +336,7 @@
                                 alt="Hôtel Tout Bleu et Blanc">
                         </a>
                         <figcaption class="popdescriptif">
-                            <h6>Hôtel Tout Bleu <br>et Blanc</h6>
+                            <h6 class="titrebloc">Hôtel Tout Bleu <br>et Blanc</h6>
                             <p>Nuit à partir de <span class="prix">68€</span></p>
 
 

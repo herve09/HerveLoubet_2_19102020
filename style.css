@@ -98,6 +98,16 @@ nav li:hover {
     color: #deebff
 }
 
+.menucouleur {
+    color: #deebff;
+}
+
+.fas,
+.fa-search,
+.loupe {
+    display: none;
+}
+
 /**************bordure des filtres et recherche ********/
 #filtre {
     margin-top: 2rem;
@@ -129,7 +139,7 @@ nav li:hover {
 
 /* !a supprimer color recherche */
 #barrerecherche {
-   display: flex;
+    display: flex;
 }
 
 /* !fin supprimer */
@@ -137,17 +147,17 @@ nav li:hover {
     border: 1px solid #F2F2F2;
     height: 40px;
     width: 300px;
-  
+
     font-size: 1.4rem;
-    
+
     background-color: #Fffff;
-    
+
 }
 
 .fa-map-marker-alt {
-   font-size: 2.5rem;
-  
-   
+    font-size: 2.5rem;
+
+
     height: 40px;
     border: 1px solid #ffffff;
     border-radius: 10px 0 0 10px;
@@ -157,7 +167,7 @@ nav li:hover {
 .boutonrecherche {
     background-color: #0065fc;
     font-size: 1.2rem;
-    border-color: 1px solid #0065fc;
+    border-color: 1px solid #e6a00b;
     border-radius: 0 1rem 1rem 0;
     color: #ffffff;
     margin-left: -5px;
@@ -233,9 +243,6 @@ section {
     display: flex;
     flex-wrap: wrap;
 
-
-
-
 }
 
 .blochebermentimage {
@@ -282,9 +289,15 @@ figcaption {
 }
 
 .titrebloc {
-    margin: 2px 0 0 10px;
+
+
+    margin-block-start: 0.5rem;
+    margin-block-end: 1.6rem;
 }
 
+.titrehebergement {
+    margin-left: 1rem;
+}
 
 /**image hebergement***/
 .img75 {
@@ -296,7 +309,8 @@ figcaption {
     background-color: #ffffff;
     border-radius: 1.2rem;
     width: 25%;
-
+    margin-inline-start: 1rem;
+    margin-inline-end: 1rem;
 }
 
 .imgheb {
@@ -347,6 +361,7 @@ figcaption {
     border-radius: 1.2rem;
 
 }
+
 
 .img25 {
 
@@ -510,6 +525,10 @@ ul {
 
     }
 
+    .fa-search {
+        display: none;
+    }
+
     /***************************************************/
 
     .blocpopulaire {
@@ -664,6 +683,10 @@ ul {
 
     .site-search {
         width: 10rem;
+    }
+
+    .recherchetexte {
+        display: none;
     }
 
     /**! filtres****/
