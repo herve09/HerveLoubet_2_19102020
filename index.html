@@ -27,7 +27,7 @@
         <!--debut du menu-->
         <nav>
             <ul>
-                <li><a href="#conteneur100">Hébergements</a></li>
+                <li><a href="#hebergement">Hébergements</a></li>
                 <li><A href="#activite">Activités</a></li>
                 <li><a href="#">S'inscrire</a></li>
 
@@ -47,9 +47,10 @@
         <!--debut barre de recherche-->
 
         <div id="barrerecherche">
-            <i class="fas fa-map-marker-alt"></i>
+            <i class="fas fa-map-marker-alt iconerecherche"></i>
 
-            <input type="search" class="site-search" placeholder="Marseille France" name="q" aria-label="Search through site content">
+            <input type="search" class="site-search" placeholder="Marseille France" name="q"
+                aria-label="Search through site content">
 
             <button class="boutonrecherche">Rechercher</button>
         </div>
@@ -91,14 +92,14 @@
 
     <!-- debut section------------------>
 
-    <section>
+    <section class="hebergement">
         <!--section hebergement + populaire---------->
 
 
 
         <!---------------partie hebergement--------->
 
-        <div class="blochebergement">
+        <main class="blochebergement">
 
             <div class="titrebloc">
                 <h4>Hébergement</h4>
@@ -238,119 +239,120 @@
             <div class="titrebloc">
                 <h4>Afficher plus</h4>
             </div>
-        </div>
+        </main>
 
 
         <!--------------partie populaire--------------------->
+        <aside class="populaire">
 
-        <div class="blocpopulaire">
-            <div class="titrebloc">
+            <div class="blocpopulaire">
+                <div class="titrebloc">
 
-                <h5>Les plus Populaires<i class="fas fa-chart-line"></i></h5>
+                    <h5>Les plus Populaires<i class="fas fa-chart-line"></i></h5>
 
-            </div>
-
-
-
-
-
-            <div class="blocimg25">
-
-
-                <figure class="img25">
-                    <a class="lienpopulaire" title="Au Coeur de L'eau" href="#">
-                        <img class="imgpop"
-                            src="ressources/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
-                            alt="Hôtel Le Soleil du Matin">
-                    </a>
-
-                    <figcaption class="popdescriptif">
-                        <h6>Hôtel Le Soleil <br> du Matin</h6>
-                        <p>Nuit à partir de <span class="prix">120€</span></p>
-
-
-
-                        <div class="hebergementetoile">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                        </div>
-
-                    </figcaption>
-
-
-                </figure>
-
-
-
-            </div>
-
-
-            <div class="blocimg25">
-
-
-                <figure class="img25">
-                    <a class="lienpopulaire" title="Au Coeur de L'eau" href="#">
-                        <img class="imgpop"
-                            src="ressources/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
-                            alt="Au Coeur de L'eau Maison d'hôtes">
-                    </a>
-                    <figcaption class="popdescriptif">
-                        <h6>Au Coeur de L'eau <br> Maison d'hôtes</h6>
-                        <p>Nuit à partir de <span class="prix">73€</span></p>
-
-
-                        <div class="hebergementetoile">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star claire"></i>
-                        </div>
-                    </figcaption>
-
-                </figure>
-
-
-
-            </div>
+                </div>
 
 
 
 
 
-            <div class="blocimg25">
+                <div class="blocimg25">
 
 
-                <figure class="img25">
-                    <a class="lienpopulaire" title="hotel Tout Bleu" href="#">
-                        <img class="imgpop"
-                            src="ressources/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
-                            alt="Hôtel Tout Bleu et Blanc">
-                    </a>
-                    <figcaption class="popdescriptif">
-                        <h6>Hôtel Tout Bleu <br>et Blanc</h6>
-                        <p>Nuit à partir de <span class="prix">68€</span></p>
+                    <figure class="img25">
+                        <a class="lienpopulaire" title="Au Coeur de L'eau" href="#">
+                            <img class="imgpop"
+                                src="ressources/images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg"
+                                alt="Hôtel Le Soleil du Matin">
+                        </a>
 
-
-                        <div class="hebergementetoile">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star claire"></i>
-                        </div>
-                    </figcaption>
-                </figure>
+                        <figcaption class="popdescriptif">
+                            <h6>Hôtel Le Soleil <br> du Matin</h6>
+                            <p>Nuit à partir de <span class="prix">120€</span></p>
 
 
 
-            </div>
+                            <div class="hebergementetoile">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+
+                        </figcaption>
 
 
-        </div>
+                    </figure>
+
+
+
+                </div>
+
+
+                <div class="blocimg25">
+
+
+                    <figure class="img25">
+                        <a class="lienpopulaire" title="Au Coeur de L'eau" href="#">
+                            <img class="imgpop"
+                                src="ressources/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+                                alt="Au Coeur de L'eau Maison d'hôtes">
+                        </a>
+                        <figcaption class="popdescriptif">
+                            <h6>Au Coeur de L'eau <br> Maison d'hôtes</h6>
+                            <p>Nuit à partir de <span class="prix">73€</span></p>
+
+
+                            <div class="hebergementetoile">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star claire"></i>
+                            </div>
+                        </figcaption>
+
+                    </figure>
+
+
+
+                </div>
+
+
+
+
+
+                <div class="blocimg25">
+
+
+                    <figure class="img25">
+                        <a class="lienpopulaire" title="hotel Tout Bleu" href="#">
+                            <img class="imgpop"
+                                src="ressources/images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg"
+                                alt="Hôtel Tout Bleu et Blanc">
+                        </a>
+                        <figcaption class="popdescriptif">
+                            <h6>Hôtel Tout Bleu <br>et Blanc</h6>
+                            <p>Nuit à partir de <span class="prix">68€</span></p>
+
+
+                            <div class="hebergementetoile">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star claire"></i>
+                            </div>
+                        </figcaption>
+                    </figure>
+
+
+
+                </div>
+        </aside>
+
+       
 
 
 
@@ -361,7 +363,7 @@
 
     <!-----------------aside-activite----------->
 
-    <aside>
+    <section class="activitemarseille">
 
         <h4>Activités à Marseille</h4>
 
@@ -433,38 +435,38 @@
             </div>
 
         </div>
-    </aside>
+    </section>
 
     <!-------------------------footer----------------------->
 
 
     <footer>
         <div class="apropos">
-            <h4>A propos</h4>
+            <h4 class="footertitre">A propos</h4>
             <ul>
                 <li class="footerliste"><a href="#">Fonctionnement du site</a></li>
                 <li class="footerliste"><a href="#">Conditions générales de ventes</a></li>
                 <li class="footerliste"><a href="#">Données et confidentialité</a></li>
             </ul>
-            
+
         </div>
         <!--------------------fin apropos---------------------->
 
-        <div classss="noshebergements">
-            <h4>Nos Hébergements</h4>
+        <div class="noshebergements">
+            <h4 class="footertitre">Nos Hébergements</h4>
             <ul>
-                
+
                 <li class="footerliste"><a href="#">Charte de qualité</a></li>
                 <li class="footerliste"><a href="#">Soumettre votre hôtel</a></li>
             </ul>
-            
+
         </div>
         <!--------------------fin noshebergements----------->
 
         <div class="assistance">
-            <h4>Assistance</h4>
+            <h4 class="footertitre">Assistance</h4>
             <ul>
-                
+
                 <li class="footerliste"><a href="#">Centre d'aide</a></li>
                 <li class="footerliste"><a href="#">Nous contacter</a></li>
             </ul>
