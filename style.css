@@ -102,13 +102,19 @@ nav li:hover {
     color: #deebff;
 }
 
+
 .fas,
 .fa-search,
-.loupe {
+.loupes {
     display: none;
 }
 
-/**************bordure des filtres et recherche ********/
+/**************bordure des filtres et recherche ****
+,,
+.loupe
+
+
+****/
 #filtre {
     margin-top: 2rem;
 }
@@ -171,10 +177,11 @@ nav li:hover {
     border-radius: 0 1rem 1rem 0;
     color: #ffffff;
     margin-left: -5px;
-}
+    }
 
-.bottonrecherche:hover {
+.boutonrecherche:hover {
     background-color: #deebff;
+    color: #0065fc;
 }
 
 /* icones------------------- */
@@ -683,10 +690,6 @@ ul {
 
     .site-search {
         width: 10rem;
-    }
-
-    .recherchetexte {
-        display: none;
     }
 
     /**! filtres****/
