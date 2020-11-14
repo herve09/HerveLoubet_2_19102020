@@ -92,6 +92,15 @@ nav a {
 
 
 }
+/* parametre desktop et responsive */
+.liinscrire, .inscrireresponsive {
+    font-weight: bold;
+    color: #0065fc;
+}
+
+.lihebergement, .hebergementresponsive {
+    color: #0065fc;
+}
 /*menu responsive***/
 
 
@@ -113,13 +122,13 @@ color: #ffffff;
 .conteneurresponsive {
     display: flex;
     flex-direction: column;
-    background-color: red;
+   
     float: left;
 }
 
 .menuresponsive {
     display: flex;
-    background-color: blueviolet;
+   
     justify-content: center;
 }
 .inscrireresponsive {
@@ -361,7 +370,7 @@ figcaption {
     width: 25%;
     margin-inline-start: 1rem;
     margin-inline-end: 1rem;
-    box-shadow: 2px 2px 2px #0c0202;
+    box-shadow: 2px 2px 2px #f2f2f2;
 }
 
 .imgheb {
@@ -425,7 +434,7 @@ figcaption {
     border-radius: 1.2rem;
     border: 3px solid #ffffff;
     background-color: #ffffff;
-    box-shadow: 2px 2px 2px #0c0202;
+    box-shadow: 2px 2px 2px #f2f2f2
 
 }
 
@@ -489,7 +498,7 @@ figcaption {
     background-color: #ffffff;
     margin-bottom: 0.5rem;
     border-radius: 1.2rem 1.2rem;
-    box-shadow: 0px 2px 0px #0c0202;
+    box-shadow: 0px 2px 0px #f2f2f2;
 }
 
 
@@ -631,7 +640,7 @@ ul {
     section {
         display: flex;
         flex-direction: column;
-        background-color: rgb(21, 79, 240);
+        
         max-width: 100%;
         margin: 25px;
 
@@ -646,7 +655,7 @@ ul {
     .blocpopulaire {
         display: flex;
         order: 1;
-        background-color: red;
+      
         width: 100%;
 
     }
@@ -700,7 +709,7 @@ ul {
 
     /**********************populaire**************************************/
     .img25 {
-        background-color: darkslateblue;
+        
         max-width: 100%;
         display: flex;
        overflow: hidden;
@@ -785,7 +794,7 @@ ul {
     }
 
     body {
-        background-color: rgb(255, 230, 0);
+       
         max-width: 600px;
         width: 95%;
 
@@ -800,7 +809,7 @@ ul {
     nav a {
         
         font-size: 1.2rem;
-        margin-right: 0px;
+        
        
     }
 .menu {
@@ -813,11 +822,26 @@ ul {
 .ulresponsive {
     display: flex;
     flex-direction: column;
+    margin-block-start: -1em;
+    margin-block-end: 0em;
     
 }
 
 .conteneurliresponsive {
     display: flex;
+    justify-content: center;
+}
+
+
+.inscrireresponsive {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+}
+
+/*! slogan */
+.h1responsive {
+    font-size: 1.2rem;
 }
     /* ! recherche **/
     .barrerecherche {
@@ -834,8 +858,10 @@ ul {
     display: none; 
 }
 
-.rechercheresposive {
+.rechercheresponsive {
     display: block;
+    background-color: #0065fc;
+    border-radius: 0.8rem;
     
 }
 
@@ -843,6 +869,11 @@ ul {
         width: 10rem;
     }
 
+    .loupes {
+        font-size: 25px;
+        color: #ffffff;
+        background-color: #0065fc;
+    }
     /**! filtres****/
     .filtre {
         display: flex;
@@ -868,13 +899,7 @@ ul {
     section {
         display: flex;
         flex-direction: column;
-        background-color: rgb(255, 2, 99);
-        /*
-            width: 98%;
-          max-width: 600px;
-          width: 800px;
-             margin: 5px;*/
-
+       
     }
 
     /**! bloc hebergement ****/
@@ -923,7 +948,7 @@ ul {
     .img25 {
         max-height: 55rem;
 
-        width: 100%;
+       /* width: 100%;*/
         padding: 3px;
         margin-inline-start: 1px;
         margin-inline-end: 5px;
@@ -942,7 +967,7 @@ ul {
 
     aside {
         max-width: 640px;
-        background-color: hotpink;
+        
         width: 100%;
     }
 
