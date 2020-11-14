@@ -36,7 +36,7 @@ h5 {
 }
 
 h6 {
-    font-size: 1.10rem;
+    font-size: 1.00rem;
     font-weight: bold;
 }
 
@@ -72,7 +72,7 @@ nav ul {
     list-style-type: none;
     display: flex;
     vertical-align: top;
-    justify-content: center;
+   
 }
 
 nav li {
@@ -92,29 +92,56 @@ nav a {
 
 
 }
+/*menu responsive***/
 
-nav li:hover {
-    background: #0065fc;
-    color: #deebff
+
+
+.lihebergement:hover, .liactivite:hover {
+    background-color: #0065fc;
+    color: #ffffff;
+}
+.liinscrire {
+    color: #0065fc;
 }
 
-.menucouleur {
-    color: #deebff;
+.liinscrire:hover{
+background-color: #0065fc;
+color: #ffffff;
 }
 
+/***menu responsive***/
+.conteneurresponsive {
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    float: left;
+}
 
-.fas,
-.fa-search,
-.loupes {
+.menuresponsive {
+    display: flex;
+    background-color: blueviolet;
+    justify-content: center;
+}
+.inscrireresponsive {
+    float: left;
+}
+
+.menuresponsive {
     display: none;
 }
-
 /**************bordure des filtres et recherche ****
 ,,
 .loupe
 
 
 ****/
+
+.fas, .fa-search, .loupes
+    {
+    display: none;
+}
+
+
 #filtre {
     margin-top: 2rem;
 }
@@ -148,17 +175,43 @@ nav li:hover {
     display: flex;
 }
 
+
+
+.rechercheresponsive {
+    display: none;
+   
+    width: 40px;
+    height: 40px;
+    border: none;
+}
 /* !fin supprimer */
 .site-search {
-    border: 1px solid #F2F2F2;
+    border: 3px solid #F2F2F2;
     height: 40px;
     width: 300px;
 
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 
     background-color: #Fffff;
 
 }
+
+
+.boutonrecherche {
+    background-color: #0065fc;
+    font-size: 1.2rem;
+    border: 1px solid #f2F2F2;
+    border-radius: 0 1rem 1rem 0;
+    color: #ffffff;
+    margin-left: -5px;
+    height: 40px;
+    }
+
+.boutonrecherche:hover {
+    background-color: #deebff;
+    color: #0065fc;
+}
+
 
 .fa-map-marker-alt {
     font-size: 2.5rem;
@@ -170,19 +223,6 @@ nav li:hover {
     border-right-color: #ffffff;
 }
 
-.boutonrecherche {
-    background-color: #0065fc;
-    font-size: 1.2rem;
-    border-color: 1px solid #e6a00b;
-    border-radius: 0 1rem 1rem 0;
-    color: #ffffff;
-    margin-left: -5px;
-    }
-
-.boutonrecherche:hover {
-    background-color: #deebff;
-    color: #0065fc;
-}
 
 /* icones------------------- */
 .fa-folder-plus,
@@ -194,8 +234,11 @@ nav li:hover {
     font-size: 1.6rem;
     border-radius: 50%;
     padding: 0.5rem;
-
-
+}
+.iconefiltre {
+    height: 26px;
+    width: 26px;
+    line-height: 40px;
 }
 
 i:hover {
@@ -318,6 +361,7 @@ figcaption {
     width: 25%;
     margin-inline-start: 1rem;
     margin-inline-end: 1rem;
+    box-shadow: 2px 2px 2px #0c0202;
 }
 
 .imgheb {
@@ -381,6 +425,8 @@ figcaption {
     border-radius: 1.2rem;
     border: 3px solid #ffffff;
     background-color: #ffffff;
+    box-shadow: 2px 2px 2px #0c0202;
+
 }
 
 
@@ -429,12 +475,21 @@ figcaption {
 
 .activitetitre {
     margin-left: 10px;
+    margin-block-start: 2rem;
+    margin-block-end: 2rem;
+}
+
+.activitetitregrd {
+    margin-left: 10px;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.53em;
 }
 
 .lienactivitegrd {
     background-color: #ffffff;
     margin-bottom: 0.5rem;
     border-radius: 1.2rem 1.2rem;
+    box-shadow: 0px 2px 0px #0c0202;
 }
 
 
@@ -495,22 +550,72 @@ ul {
 
 /*************************Responsive ******************************************/
 /****/
-/****/
-/***/
-/***/
+/* ! reponsive en  800 1024*/
+/* ! reponsive en  800 1024*/
+/* ! reponsive en  800 1024*/
+/* ! reponsive en  800 1024*/
 
-@media all and (min-device-width: 640px) and (max-device-width: 1024px) {
+/***/
+/***/
+@media all and (min-device-width: 801px) and (max-device-width: 1024px)
+{
+    .img75 {
+        width: 40%;
+    }
+
+}
+
+
+/* ! reponsive en 600 800 */
+/* ! reponsive en 600 800 */
+/* ! reponsive en 600 800 */
+/* ! reponsive en 600 800 */
+/* ! reponsive en 600 800 */
+@media all and (min-device-width: 600px) and (max-device-width: 800px) {
 
 
     body {
-        width: 100%;
+        max-width: auto;
         align-content: center;
-        min-width: 640px;
+        min-width: 100%;
+    }
+/*****menu
+    .menu1 {
+        
+    position: absolute;
+    right: 0px;
+    width: 50%;
+    height: 50%;
+    padding-top: 30px;
     }
 
+.menu2 {
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    height: 50%;
+    padding-top: 30px;
+    padding-top: 30px;
+}
+
+}
+    .menu3 {
+        
+    position: absolute;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    grid-area: subscribe;
+    padding-top: 40px;
+    padding-right: 19px;
+    text-align: end;
+    font-weight: 600;
+    color: #0065FC;
+    }
+****/
     .filtre {
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
     }
 
     .filtretexte {
@@ -532,7 +637,7 @@ ul {
 
     }
 
-    .fa-search {
+    .rechercheresposive {
         display: none;
     }
 
@@ -557,26 +662,19 @@ ul {
 
 
     .lienpopulaire {
-        width: 100%;
+        width: 800px;
         display: flex;
         flex-wrap: nowrap;
     }
 
-    .img25 {
-        background-color: darkslateblue;
-        width: 100%;
-        display: flex;
-        top: 1rem;
-        margin: 1rem;
-    }
-
+  
 
     /****************************************************************/
 
 
     .blochebergement {
         display: grid;
-        margin: 15px;
+        margin: 10px;
         flex: 1;
         order: 2;
 
@@ -600,9 +698,31 @@ ul {
 
     }
 
-    /************************************************************/
+    /**********************populaire**************************************/
+    .img25 {
+        background-color: darkslateblue;
+        max-width: 100%;
+        display: flex;
+       overflow: hidden;
+        
+        height: 13rem;
+    }
 
 
+    .titrebloc {
+        margin-block-start: 0px;
+     margin-block-end: 0px;
+    }
+
+    .imgpop {
+        width: 90%;
+        height: 11rem;
+        float: left;
+        margin: auto;
+    }
+.hebergementetoile {
+    margin-left: -30px;
+}
     /*activite*****************/
     .activitemarseille {
         display: flex;
@@ -647,19 +767,26 @@ ul {
 
 }
 
+/* ! reponsive en 600 */
 
-
-
-/* ! reponsive en 640 */
+/* ! reponsive en 600 */
+/* ! reponsive en 600 */
+/*! */
+/*! */
+/*! */
 
 /* ? voir pourquoi le body ne rete pas en plein ecran */
 
-@media all and (max-device-width: 639px) {
+@media all and (max-device-width: 600px) {
 
+    header {
+        display: flex;
+        flex-direction: column;
+    }
 
     body {
         background-color: rgb(255, 230, 0);
-        max-width: 639px;
+        max-width: 600px;
         width: 95%;
 
 
@@ -667,28 +794,52 @@ ul {
 
     /*! menu****/
 
-    nav {
-        display: flex;
-        flex-wrap: wrap;
-    }
+    
 
 
     nav a {
-        display: flex;
-        font-size: 1rem;
+        
+        font-size: 1.2rem;
         margin-right: 0px;
-        justify-content: space-around;
+       
     }
+.menu {
+    display: none;
+}
+.menuresponsive {
+    display: block;
+}
 
+.ulresponsive {
+    display: flex;
+    flex-direction: column;
+    
+}
 
+.conteneurliresponsive {
+    display: flex;
+}
     /* ! recherche **/
     .barrerecherche {
         display: flex;
         width: 10rem;
     }
 
+    .boutonrecherche {
+        display: none;
+/***        background-color: #ffffff;
+        border: none;****/
+    }
+.recherchetexte {
+    display: none; 
+}
 
-    .site-search {
+.rechercheresposive {
+    display: block;
+    
+}
+
+.site-search {
         width: 10rem;
     }
 
@@ -706,7 +857,11 @@ ul {
         text-align: center;
 
     }
-
+.filtretitre {
+    clear: both;
+    display: block;
+    width: 100%;
+}
 
     /**! section ***/
 

@@ -25,17 +25,26 @@
 
 
         <!--debut du menu-->
-        <nav>
+        <nav class="menu">
             <ul>
-                <li><a class="menucouleur" href="#hebergement">Hébergements</a></li>
-                <li><a href="#activite">Activités</a></li>
-                <li><a class="menucouleur" href="#">S'inscrire</a></li>
+                <li><a class="lihebergement" href="#hebergement">Hébergements</a></li>
+                <li><a class="liactivite" href="#activite">Activités</a></li>
+                <li><a class="liinscrire" href="#">S'inscrire</a></li>
 
             </ul>
         </nav>
         <!--fin de menu-->
+<!--menu responsive-->
 
-
+<nav class="menuresponsive">
+    <ul class="ulresponsive">
+        <li><a class="inscrireresponsive" href="#">S'inscrire</a></li>
+        <div class="conteneurliresponsive">
+        <li><a class="hebergementresponsive" href="#hebergement">Hébergements</a></li>
+        <li><a class="activiteresponsive" href="#activite">Activités</a></li>
+        </div>
+    </ul>
+</nav>
     </header>
 
 
@@ -54,7 +63,8 @@
 
             <button class="boutonrecherche">
                  <span class="recherchetexte">Recherche</span>
-                <i class="fas fa-search loupes"> </i>
+            </button>
+                <button class="rechercheresponsive"><i class="fas fa-search loupes"> </i>
             </button>
         </div>
 
@@ -67,18 +77,18 @@
         <h2 class="filtretitre">Filtres</h2>
 
         <div class="icone">
-            <i class="fas fa-folder-plus"></i><span class="filtretexte">Economique</span>
+            <i class="fas fa-folder-plus iconefiltre"></i><span class="filtretexte">Economique</span>
         </div>
         <div class="icone">
-            <i class="fas fa-child"></i><span class="filtretexte">Familial</span>
+            <i class="fas fa-child iconefiltre"></i><span class="filtretexte">Familial</span>
         </div>
         <div class="icone">
-            <i class="fas fa-heart"></i><span class="filtretexte">Romantique</span>
+            <i class="fas fa-heart iconefiltre"></i><span class="filtretexte">Romantique</span>
         </div>
 
 
         <div class="icone">
-            <i class="fas fa-dog"></i><span class="filtretexte">Animaux autorisés</span>
+            <i class="fas fa-dog iconefiltre"></i><span class="filtretexte">Animaux autorisés</span>
         </div>
 
 
@@ -381,7 +391,7 @@
                         src="ressources/images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
                         alt="vieux port">
 
-                    <h6 class="activitetitre">Vieux Port</h6>
+                    <h6 class="activitetitregrd">Vieux Port</h6>
                 </a>
             </div>
 
@@ -412,7 +422,7 @@
                         src="ressources/images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                         alt="Parc national des calenques">
 
-                    <h6 class="activitetitre">Parc National des Calenques</h6>
+                    <h6 class="activitetitregrd">Parc National des Calenques</h6>
                 </a>
 
             </div>
