@@ -201,10 +201,10 @@ color: #ffffff;
 
     font-size: 1.2rem;
 
-    background-color: #Fffff;
+    background-color: #fffff;
     border-width: 1px 0px 1px 0px;
     border-style: solid;
-    border-color: red;
+    border-color:#f2f2f2
 
 }
 
@@ -219,7 +219,7 @@ color: #ffffff;
     height: 40px;
     border-style: solid;
     border-width: 1px 1px 1px 0px;
-    border-color: red;
+    border-color: #f2f2f2;
     }
 
 .boutonrecherche:hover {
@@ -228,18 +228,25 @@ color: #ffffff;
 }
 
 
-.fa-map-marker-alt {
-    font-size: 2.5rem;
-    height: 38px;
-    
-    border-radius: 10px 0 0 10px;
+.iconemap {
+    font-size: 1.5rem;
+    vertical-align: -15px;
    
-    border-style: solid;
-    border-width: 1px 0px 1px 1px;
-    border-color: red;
+    margin-left: 5px;
+    
+   
+   
     
 }
-
+.iconerecherche {
+    position: relative;
+    height: 38px;
+    width: 2rem;
+    border-style: solid;
+    border-width: 1px 0px 1px 1px;
+    border-color: #f2f2f2;
+    border-radius: 10px 0 0 10px;
+}
 
 
 /* icones------------------- */
@@ -272,13 +279,6 @@ i:hover {
 
 .filtre:hover {
     background-color: #deebff;
-}
-
-.fas,
-.fa-info {
-    color: #0065fc;
-
-    background-color: #f2f2f2;
 }
 
 /*************************************************/
@@ -368,6 +368,11 @@ figcaption {
 }
 
 /**image hebergement***/
+.descriptif {
+    margin-left: 10px;
+}
+
+
 .img75 {
     display: flex;
     padding: 1px 2px 1px 2px;
@@ -377,19 +382,23 @@ figcaption {
     background-color: #ffffff;
     border-radius: 1.2rem;
     width: 25%;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
     margin-inline-start: 1rem;
     margin-inline-end: 1rem;
     box-shadow: 2px 2px 2px #f2f2f2;
+    
 }
 
 .imgheb {
 
     width: 100%;
     border-radius: 1.2rem;
+    height: 10rem;
 
 }
  .imgheb:hover {
-     transform: scale(1.1);
+     transform: scale(1.2);
  }
 
 
@@ -397,26 +406,35 @@ figcaption {
 .hotelmer {
 
     object-fit: cover;
-    height: 100%;
+    /*height: 100%;*/
 
 }
-
+ /**
 
 .lienherbergement {
     border-radius: 1.2rem;
     overflow: hidden;
-    height: 150px;
+   height: 250px;
 }
-
+****/
 /*   ****! populaire ****/
+
+.titrebloc h5 {
+    margin-left: 10px;
+}
 
 .lienpopulaire {
 
     display: inline-block;
-    width: 40%;
+  /* width: 50%;*/
     float: left;
-
+    display: flex;
+    background-color: #fff;
+    border: 5px solid #fdfbfb;
+    border-radius: 1.25rem;
+    box-shadow: 5px 5px 5px #f2f2f2;
 }
+
 
 
 .iconpop {
@@ -438,30 +456,30 @@ figcaption {
 
 .img25 {
 
-    max-height: 9.5rem;
+    
     min-width: 18.00rem;
-    max-width: 30.00rem;
+    
     padding: 3px;
     margin-inline-start: 1px;
     margin-inline-end: 5px;
     border-radius: 1.2rem;
-    border: 3px solid #ffffff;
-    background-color: #ffffff;
-    box-shadow: 5px 5px 5px #f2f2f2
+    
+    
+    margin-bottom: 10rem;
 
 }
 
 
 .imgpop {
-    width: 100%;
+    width: 40%;
     float: left;
-    height: 7.5rem;
+   margin-right: 5px;
     border-radius: 1rem 0 0 1rem;
 
 }
 
-.img25:hover {
-    transform: scale(1.2);
+.imgpop:hover {
+    transform: scale(1.1);
 }
 
 
@@ -884,7 +902,7 @@ ul {
 }
 
 .site-search {
-        width: 10rem;
+        width: 11rem;
     }
 
     .loupes {
@@ -977,14 +995,14 @@ ul {
 
     .imgpop {
 
-        width: 100%;
-        height: 10rem;
+        
+        height: 9rem;
     }
 
     /********!bloc acitivité*/
 
     aside {
-        max-width: 640px;
+        max-width: 600px;
         
         width: 100%;
     }
