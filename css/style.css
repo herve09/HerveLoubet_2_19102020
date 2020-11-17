@@ -53,10 +53,10 @@ header {
 .logo {
     display: flex;
     align-items: baseline;
-
+    padding-top: 20px;   
 }
 
-/* navigation--------------------------*/
+/* navigation**/
 nav {
     vertical-align: top;
     margin-right: 2rem;
@@ -74,7 +74,7 @@ nav li {
     margin-right: 0.5rem;
     margin-left: 0.5rem;
     width: 9rem;
-    height: 2rem;
+    height: 3rem;
     justify-content: center;
 }
 
@@ -83,7 +83,7 @@ nav a {
     padding-bottom: 2px;
 }
 
-/* parametre desktop et responsive */
+/**parametre desktop et responsive**/
 .liinscrire,
 .inscrireresponsive {
     font-weight: bold;
@@ -93,14 +93,22 @@ nav a {
 .lihebergement,
 .hebergementresponsive {
     color: #0065fc;
+   
 }
+.lihebergement,
+.liactivite,
+.liinscrire {
+    padding-top: 20px;
+}
+
 
 /*menu responsive***/
 
 .lihebergement:hover,
 .liactivite:hover {
-    background-color: #0065fc;
-    color: #ffffff;
+    
+    
+   border-top: 5px solid  #0065fc; 
 }
 
 .liinscrire {
@@ -152,6 +160,9 @@ nav a {
     margin: 20px;
     border: 2px solid rgb(161, 161, 161);
     border-radius: 1.5rem;
+    position: relative;
+    padding-left: 40px;
+    height: 36px;
 }
 
 .icone:hover {
@@ -169,6 +180,8 @@ nav a {
     font-size: 1rem;
     font-weight: bold;
     margin: 0 1.5rem 0 1.5rem;
+    height: 36px;
+    line-height: 36px;
 }
 
 
@@ -190,9 +203,7 @@ nav a {
 
     height: 40px;
     width: 300px;
-
     font-size: 1.2rem;
-
     background-color: #fffff;
     border-width: 1px 0px 1px 0px;
     border-style: solid;
@@ -222,6 +233,7 @@ nav a {
     font-size: 1.5rem;
     vertical-align: -15px;
     margin-left: 5px;
+    background-color: #f2f2f2;
 }
 
 .iconerecherche {
@@ -235,7 +247,7 @@ nav a {
 }
 
 
-/* icones------------------- */
+/**icones***/
 .fa-folder-plus,
 .fa-child,
 .fa-heart,
@@ -245,6 +257,9 @@ nav a {
     font-size: 1.6rem;
     border-radius: 50%;
     padding: 0.5rem;
+    position: absolute;
+    top: -3px;
+    left: -5px;
 }
 
 .iconefiltre {
@@ -268,12 +283,18 @@ i:hover {
     background-color: #deebff;
 }
 
+.fa-info {
+    color: #0065fc;
+    padding: 0 5px 0 5px;
+    background-color: #f2f2f2;
+    border-radius: 0.2rem;
+    border: 2px solid #f2f2f2;
+}
+
 /******************/
 section {
     display: flex;
 }
-
-
 
 .blochebergement,
 .blocpopulaire {
@@ -307,7 +328,7 @@ section {
     flex-direction: column;
 }
 
-/* etoile******/
+/*etoile******/
 .fa-chart-line {
     margin-left: 6rem;
 }
@@ -339,7 +360,7 @@ figcaption {
     margin-left: 1rem;
 }
 
-/**image hebergement***/
+
 .descriptif {
     margin-left: 10px;
 }
@@ -358,7 +379,7 @@ figcaption {
     margin-bottom: 3rem;
     margin-inline-start: 1rem;
     margin-inline-end: 1rem;
-    box-shadow: 2px 2px 2px #f2f2f2;
+    box-shadow: 2px 2px 2px #4e4e4e;
 }
 
 .imgheb {
@@ -391,7 +412,7 @@ figcaption {
     background-color: #fff;
     border: 5px solid #fdfbfb;
     border-radius: 1.25rem;
-    box-shadow: 5px 5px 5px #f2f2f2;
+    box-shadow: 2px 2px 2px #4e4e4e;
 }
 
 
@@ -478,7 +499,7 @@ figcaption {
     background-color: #ffffff;
     margin-bottom: 0.5rem;
     border-radius: 1.2rem 1.2rem;
-    box-shadow: 0px 2px 0px #f2f2f2;
+    box-shadow: 0px 2px 0px #4e4e4e;
 }
 
 
@@ -512,11 +533,11 @@ footer {
 
 ul {
     list-style: none
-        /*padding-inline-start: 0px;*/
+   
 }
 
 .footerliste {
-    /*background-color: blue;*/
+    
     font-size: 1rem;
     margin-top: 0;
 }
@@ -589,7 +610,7 @@ ul {
         display: none;
     }
 
-    /***************************************************/
+    /***********/
 
     .blocpopulaire {
         display: flex;
@@ -636,7 +657,7 @@ ul {
         width: 100%;
     }
 
-    /**********************populaire**************************************/
+    /***populaire*******/
     .img25 {
         max-width: 100%;
         display: flex;
@@ -696,8 +717,6 @@ ul {
         flex-direction: column;
     }
 
-
-
 }
 
 /* ! reponsive en 600 */
@@ -716,7 +735,6 @@ ul {
     }
 
     /*! menu****/
-
 
     nav a {
         font-size: 1.2rem;
@@ -832,8 +850,6 @@ ul {
         padding: 1px 2px 1px 2px;
         flex-direction: column;
         white-space: normal;
-        border: 4px solid #ffffff;
-        background-color: #ffffff;
         border-radius: 1.2rem;
         width: 90%;
         overflow: hidden;
@@ -913,4 +929,9 @@ ul {
         display: flex;
         flex-direction: column;
     }
+}
+
+.footerliste {
+   width: 30rem;
+
 }
