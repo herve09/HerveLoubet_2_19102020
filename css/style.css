@@ -90,11 +90,15 @@ nav a {
     color: #0065fc;
 }
 
-.lihebergement,
-.hebergementresponsive {
+.lihebergement:hover,
+.hebergementresponsive:hover,
+.liactivite:hover,
+.activiteresponsive:hover {
     color: #0065fc;
-   
-}
+    border-top: 5px solid  #0065fc;
+ }
+ 
+
 .lihebergement,
 .liactivite,
 .liinscrire {
@@ -104,12 +108,6 @@ nav a {
 
 /*menu responsive***/
 
-.lihebergement:hover,
-.liactivite:hover {
-    
-    
-   border-top: 5px solid  #0065fc; 
-}
 
 .liinscrire {
     color: #0065fc;
@@ -461,12 +459,9 @@ figcaption {
 
 /**conteneur activites *************/
 
-.activitemarseille {
+#activitemarseille {
     display: flex;
     flex-direction: column;
-}
-
-.activitemarseille {
     margin-left: 5px;
 }
 
@@ -929,5 +924,11 @@ ul {
         display: flex;
         flex-direction: column;
     }
+
+    .apropos,
+.noshebergements,
+.assistance {
+    width: 100%;
+}
 }
 
