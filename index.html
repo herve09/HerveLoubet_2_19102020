@@ -37,11 +37,11 @@
         <nav class="menuresponsive">
             <ul class="ulresponsive">
                 <li><a class="inscrireresponsive" href="#">S'inscrire</a></li>
-                <div class="conteneurliresponsive">
-                    <li><a class="hebergementresponsive" href="#blochebergement">Hébergements</a></li>
-                    <li><a class="activiteresponsive" href="#activitemarseille">Activités</a></li>
-                </div>
-            </ul>
+              <!--  <ul class="conteneurliresponsive">-->
+                    <li class="conteneurliresponsive"><a class="hebergementresponsive" href="#blochebergement">Hébergements</a></li>
+                    <li class="conteneurliresponsive"><a class="activiteresponsive" href="#activitemarseille">Activités</a></li>
+                </ul>
+           <!-- </ul> -->
         </nav>
     </header>
 
@@ -87,7 +87,6 @@
             <i class="fas fa-heart iconefiltre"></i><span class="filtretexte">Romantique</span>
         </div>
 
-
         <div class="icone">
             <i class="fas fa-dog iconefiltre"></i><span class="filtretexte">Animaux autorisés</span>
         </div>
@@ -103,12 +102,13 @@
 
     <!--debut section-->
 
-    <section class="hebergement">
+    <main class="hebergement">
         <!--section hebergement + populaire-->
 
         <!--partie hebergement-->
 
-        <main id="blochebergement">
+        <section>
+            <div id="blochebergement">
 
             <div class="titrehebergement">
                 <h4>Hébergements à Marseille</h4>
@@ -126,7 +126,7 @@
                         <div class="descriptif">
 
                             <h6 class="titrebloc">Auberge La Cannibière</h6>
-                            <p>Nuit à partir de <span class="prix">25€</span></p>
+                            <p class="textedescriptif">Nuit à partir de <span class="prix">25€</span></p>
 
 
                             <div class="etoile">
@@ -148,7 +148,7 @@
 
                         <div class="descriptif">
                             <h6 class="titrebloc">Hôtel du port</h6>
-                            <p>Nuit à partir de <span class="prix">53€</span></p>
+                            <p class="textedescriptif">Nuit à partir de <span class="prix">52€</span></p>
 
                             <div class="hebergementetoile">
                                 <i class="fas fa-star first"></i>
@@ -169,7 +169,7 @@
 
                         <div class="descriptif">
                             <h6 class="titrebloc">Hôtel Les Mouettes</h6>
-                            <p>Nuit à partir de <span class="prix">25€</span></p>
+                            <p class="textedescriptif">Nuit à partir de <span class="prix">76€</span></p>
 
                             <div class="hebergementetoile">
                                 <i class="fas fa-star first"></i>
@@ -190,7 +190,7 @@
 
                         <div class="descriptif">
                             <h6 class="titrebloc">Hôtel de la mer</h6>
-                            <p>Nuit à partir de <span class="prix">46€</span></p>
+                            <p class="textedescriptif">Nuit à partir de <span class="prix">46€</span></p>
 
                             <div class="hebergementetoile">
                                 <i class="fas fa-star first"></i>
@@ -208,11 +208,11 @@
                     <a class="lienherbergement" title="hebergement" href="#">
                         <img class="imgheb"
                             src="ressources/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                            alt="Auberge la Cannebière">
+                            alt="Auberge Le Panier">
 
                         <div class="descriptif">
-                            <h6 class="titrebloc">Hôtel Le Panier</h6>
-                            <p>Nuit à partir de <span class="prix">23€</span></p>
+                            <h6 class="titrebloc">Auberge Le Panier</h6>
+                            <p class="textedescriptif">Nuit à partir de <span class="prix">23€</span></p>
 
                             <div class="hebergementetoile">
                                 <i class="fas fa-star first"></i>
@@ -229,11 +229,11 @@
                     <a class="lienherbergement" title="hebergement" href="#">
                         <img class="imgheb aminata"
                             src="ressources/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
-                            alt="chez aminata">
+                            alt="Hotel chez Amina">
 
                         <div class="descriptif">
-                            <h6 class="titrebloc">Chez Aminata</h6>
-                            <p>Nuit à partir de <span class="prix">96€</span></p>
+                            <h6 class="titrebloc">Hôtel Chez Amina</h6>
+                            <p class="textedescriptif">Nuit à partir de <span class="prix">96€</span></p>
 
                             <div class="hebergementetoile">
                                 <i class="fas fa-star first"></i>
@@ -250,7 +250,8 @@
             <div class="titrebloc">
                 <h4 class="titrehebergement">Afficher plus</h4>
             </div>
-        </main>
+            </div>
+        </section>
 
         <!--populaire-->
         <aside class="populaire">
@@ -272,7 +273,7 @@
 
                             <div class="popdescriptif">
                                 <h6 class="titrebloc">Hôtel Le Soleil <br> du Matin</h6>
-                                <p>Nuit à partir de <span class="prix">120€</span></p>
+                                <p class="textedescriptif">Nuit à partir de <span class="prix">128€</span></p>
 
                                 <div class="hebergementetoile">
                                     <i class="fas fa-star first"></i>
@@ -296,7 +297,7 @@
 
                             <div class="popdescriptif">
                                 <h6 class="titrebloc">Au Coeur de L'eau <br> Maison d'hôtes</h6>
-                                <p>Nuit à partir de <span class="prix">73€</span></p>
+                                <p class="textedescriptif">Nuit à partir de <span class="prix">71€</span></p>
 
                                 <div class="hebergementetoile">
                                     <i class="fas fa-star first"></i>
@@ -320,7 +321,7 @@
 
                             <div class="popdescriptif">
                                 <h6 class="titrebloc">Hôtel Tout Bleu <br>et Blanc</h6>
-                                <p>Nuit à partir de <span class="prix">68€</span></p>
+                                <p class="textedescriptif">Nuit à partir de <span class="prix">68€</span></p>
 
                                 <div class="hebergementetoile">
                                     <i class="fas fa-star first"></i>
@@ -333,9 +334,10 @@
                         </a>
                     </div>
                 </div>
+            </div>
         </aside>
 
-    </section>
+    </main>
 
     <!--activite-->
 

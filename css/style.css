@@ -1,4 +1,4 @@
-/* importation police */
+/*police */
 @import "https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap";
 
 /*affectation de la police */
@@ -203,7 +203,7 @@ margin-left:  -4px;
     height: 2.5rem;
     width: 18.75rem;
     font-size: 1.2rem;
-    background-color: #fffff;
+    background-color: #ffffff;
     border-width: 1px 0px 1px 0px;
     border-style: solid;
     border-color: #f2f2f2
@@ -291,7 +291,9 @@ i:hover {
 }
 
 /******************/
-section {
+/*!revoir*/
+/*!re*/
+/*section*/main {
     display: flex;
 }
 
@@ -351,12 +353,14 @@ figcaption {
     font-size: 0.75rem;
     margin-left: 1rem;
 }
-
+   /*! revoir*/
+   /*!re */
+   /*
 .titrebloc {
-    margin-block-start: 1rem;
+margin-block-start: 1rem;
     margin-block-end: 1.6rem;
 }
-
+*/
 .titrehebergement {
     margin-left: 1rem;
 }
@@ -364,8 +368,11 @@ figcaption {
 
 .descriptif {
     margin-left: 10px;
+    margin-top: -25px;
 }
-
+ .textedescriptif {
+     margin-top: -25px;
+ }
 
 .img75 {
     display: flex;
@@ -376,10 +383,12 @@ figcaption {
     background-color: #ffffff;
     border-radius: 1.2rem;
     width: 25%;
+    height: 17.5rem;
     margin-top: 2rem;
-    margin-bottom: 3rem;
-    margin-inline-start: 1rem;
-    margin-inline-end: 1rem;
+  /*!  margin-bottom: 3rem;*/
+    margin-right: 1.2rem; /*!rajoute*/
+  /*!  margin-inline-start: 1rem;*/
+    /*! margin-inline-end: 1rem; */
     box-shadow: 2px 2px 2px #4e4e4e;
 }
 
@@ -390,7 +399,7 @@ figcaption {
 }
 
 .imgheb:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
 }
 
 
@@ -436,8 +445,10 @@ figcaption {
 .img25 {
     min-width: 18.00rem;
     padding: 3px;
-    margin-inline-start: 1px;
-    margin-inline-end: 5px;
+    /*!sup 2eme*/
+  /*!  margin-inline-start: 1px;*/
+/***/
+   /*! margin-inline-end: 5px;*/
     border-radius: 1.2rem;
     margin-bottom: 10rem;
 }
@@ -451,7 +462,7 @@ figcaption {
 }
 
 .imgpop:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 
@@ -487,14 +498,14 @@ figcaption {
 
 .activitetitre {
     margin-left: 10px;
-    margin-block-start: 2rem;
-    margin-block-end: 2rem;
+    /*!    margin-block-start: 2rem;*/
+/*!    margin-block-end: 2rem; */
 }
 
 .activitetitregrd {
     margin-left: 10px;
-    margin-block-start: 1.33em;
-    margin-block-end: 1.53em;
+  /*!  margin-block-start: 1.33em;*/
+  /*!  margin-block-end: 1.53em;*/
 }
 
 .lienactivitegrd {
@@ -515,7 +526,7 @@ figcaption {
 
 .imgact:hover,
 .imgactptt:hover {
-    transform: scale(1.3);
+    transform: scale(1.05);
 }
 
 .imgactptt {
@@ -568,164 +579,26 @@ ul {
 
 /* ! reponsive en  800 1024*/
 
-@media all and (min-device-width: 801px) and (max-device-width: 1024px) {
+@media all and (min-device-width: 781px) and (max-device-width: 1024px) {
     .img75 {
         width: 40%;
     }
 
 }
-
-
-
-/* ! reponsive en 600 800 */
-@media all and (min-device-width: 600px) and (max-device-width: 800px) {
-
-
-    body {
-        max-width: auto;
-        align-content: center;
-        min-width: 100%;
-    }
-
-    .filtre {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .filtretexte {
-        margin: 0 0.5rem;
-    }
-
-    .icone {
-        display: flex;
-        flex-wrap: wrap;
-        margin: 5px;
-    }
-
-    section {
-        display: flex;
-        flex-direction: column;
-        max-width: 100%;
-        margin: 25px;
-    }
-
-    .rechercheresposive {
-        display: none;
-    }
-
-    /***********/
-
-    .blocpopulaire {
-        display: flex;
-        order: 1;
-        width: 100%;
-    }
-
-    .blocimg25 {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-    }
-
-
-    .lienpopulaire {
-        width: 800px;
-        display: flex;
-        flex-wrap: nowrap;
-    }
-
-
-    /************/
-
-
-    .blochebergement {
-        display: grid;
-        margin: 10px;
-        flex: 1;
-        order: 2;
-    }
-
-    .blochebergementimage {
-        margin: 20px;
-        display: flex;
-    }
-
-
-    .img75 {
-        width: 100%;
-        object-fit: cover;
-    }
-
-    .imgheb {
-        width: 100%;
-    }
-
-    /***populaire*******/
-    .img25 {
-        max-width: 100%;
-        display: flex;
-        overflow: hidden;
-        height: 13rem;
-    }
-
-
-    .titrebloc {
-        margin-block-start: 0px;
-        margin-block-end: 0px;
-    }
-
-    .imgpop {
-        width: 90%;
-        height: 11rem;
-        float: left;
-        margin: auto;
-    }
-
-    .hebergementetoile {
-        margin-left: -30px;
-    }
-
-    /*activite*****************/
-    .activitemarseille {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .activite {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-
-    .blocactivite {
-        width: auto;
-        justify-content: center;
-        margin: 1rem;
-        display: flex;
-        flex-direction: column;
-    }
-
-
-    .imgact {
-        width: 100%;
-        height: 10.5rem;
-        display: block;
-        overflow: hidden;
-    }
-
-
-    footer {
-        display: flex;
-        flex-direction: column;
-    }
-
+.filtre {
+    display: flex;
+    flex-wrap: wrap;
 }
+
+
+
+
+
 
 /* ! reponsive en 600 */
 
 
-@media all and (max-device-width: 600px) {
+@media all and (max-device-width: 780px) {
 
     header {
         display: flex;
@@ -733,8 +606,8 @@ ul {
     }
 
     body {
-        max-width: 600px;
-        width: 95%;
+        max-width: 780px;
+        width: 98%;
     }
 
     /*! menu****/
@@ -754,14 +627,17 @@ ul {
 
     .ulresponsive {
         display: flex;
-        flex-direction: column;
-        margin-block-start: -1em;
+       /*! flex-direction: column;*/
+        /*!margin-block-start: -1em;*/
+        /*!rajout margin-right: */
+        margin-right: 10rem;
         margin-block-end: 0em;
     }
 
     .conteneurliresponsive {
         display: flex;
-        justify-content: center;
+        /*!justify-content: center;*/
+        margin: 0px 40px;/*! rajout*/
     }
 
 
@@ -795,11 +671,11 @@ ul {
         background-color: #0065fc;
         border-radius: 0.8rem;
     }
-
+/*!
     .site-search {
         width: 11rem;
     }
-
+*/
     .loupes {
         font-size: 1.25rem;
         color: #ffffff;
@@ -826,20 +702,22 @@ ul {
     }
 
     /**! section ***/
-
-    section {
+/*!revoir */
+/*!re*/
+    /*section*/main {
         display: flex;
-        flex-direction: column;
+        flex-direction: column-reverse;
+        max-width: 95%;
     }
 
-    /**! bloc hebergement ****/
+    
+
+
 
     .blochebergement {
         display: flex;
         flex-direction: column;
-        flex: 1;
-        order: 2;
-        justify-content: center;
+       justify-content: center;
     }
 
 
@@ -854,7 +732,8 @@ ul {
         flex-direction: column;
         white-space: normal;
         border-radius: 1.2rem;
-        width: 90%;
+        max-width: 780px;
+        width: 100%;
         overflow: hidden;
 margin-top: 0.5rem;
 margin-bottom: 0.5rem;
@@ -862,11 +741,12 @@ margin-bottom: 0.5rem;
 
     .imgheb {}
 
-    /*****!bloc populaire */
+   
 
     .blocpopulaire {
-        display: flex;
-        order: 1;
+     /*****!bloc populaire   display: flex;
+        order: 1; */
+        width: 100%;
     }
 
     .img25 {
@@ -884,7 +764,7 @@ margin-bottom: 0.5rem;
     /********!bloc acitivité*/
 
     aside {
-        max-width: 600px;
+        max-width: 780px;
         width: 100%;
     }
 
@@ -892,7 +772,11 @@ margin-bottom: 0.5rem;
     .activite {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 95%;
+    }
+
+    .popdescriptif {
+        margin-top: -29px;
     }
 
     .blocactivite {
@@ -930,12 +814,21 @@ margin-bottom: 0.5rem;
     footer {
         display: flex;
         flex-direction: column;
+        background-color: #f2f2f2;
     }
 
     .apropos,
 .noshebergements,
 .assistance {
     width: 100%;
-}
+    margin-left: -30px;
 }
 
+}
+
+@media all and (max-device-width: 480px) {
+
+    .site-search {
+        width: 15rem;
+    }
+}
