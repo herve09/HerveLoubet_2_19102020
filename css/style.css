@@ -1,7 +1,7 @@
-/*police*/
+
 @import "https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap";
 
-/*affectation de la police*/
+/**affectation de la police*/
 body {
     font-family: "Raleway", "Sans serif ";
     margin: 10px;
@@ -56,7 +56,7 @@ header {
     padding-top: 1.25rem;   
 }
 
-/*navigation**/
+/**navigation**/
 nav {
     vertical-align: top;
     margin-right: 2rem;
@@ -586,7 +586,7 @@ ul {
 
 /* ! reponsive en  800 1024*/
 
-@media all and (min-device-width: 781px) and (max-device-width: 1024px) {
+@media all and (min-width: 781px) and (max-width: 1024px) {
     .img75 {
         width: 40%;
     }
@@ -609,7 +609,7 @@ ul {
 /* ! reponsive en 600 */
 
 
-@media all and (max-device-width: 780px) {
+@media all and (max-width: 780px) {
 
     header {
         display: flex;
@@ -642,7 +642,7 @@ ul {
         /*!margin-block-start: -1em;*/
         /*!rajout margin-right: */
         margin-right: 10rem;
-        margin-block-end: 0em;
+       /*! margin-block-end: 0em;*//*!****/
         margin-left: 2rem;
     }
 
@@ -774,8 +774,8 @@ margin-bottom: 0.5rem;
     .img25 {
       /*max-height: 55rem;********************/
         padding: 3px;
-        margin-inline-start: 1px;
-        margin-inline-end: 5px;
+      /*!  margin-inline-start: 1px;*/
+       /*! margin-inline-end: 5px;**//*!****/
         border-radius: 1.2rem;
         }
 
@@ -848,7 +848,7 @@ margin-bottom: 0.5rem;
 
 }
 
-@media all and (max-device-width: 480px) {
+@media all and (max-width: 480px) {
 
     .site-search {
         width: 15rem;
