@@ -1,7 +1,7 @@
-/*police */
+/*police*/
 @import "https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap";
 
-/*affectation de la police */
+/*affectation de la police*/
 body {
     font-family: "Raleway", "Sans serif ";
     margin: 10px;
@@ -56,7 +56,7 @@ header {
     padding-top: 1.25rem;   
 }
 
-/* navigation**/
+/*navigation**/
 nav {
     vertical-align: top;
     margin-right: 2rem;
@@ -141,7 +141,7 @@ nav a {
     display: none;
 }
 
-/******bordure des filtres et recherche ****/
+/******bordure des filtres et recherche****/
 
 .fas,
 .fa-search,
@@ -150,9 +150,16 @@ nav a {
 }
 
 
-#filtre {
-    margin-top: 2rem;
-}
+
+
+
+.filtre {
+    display: flex;
+          margin: 0px;
+          flex-wrap: nowrap;
+        }
+
+
 
 .icone {
     background-color: #ffffff;
@@ -409,7 +416,7 @@ margin-block-start: 1rem;
 }
 
 
-/*   ****! populaire ****/
+/*****! populaire****/
 
 .titrebloc h5 {
     margin-left: 10px;
@@ -471,7 +478,7 @@ margin-block-start: 1rem;
 }
 
 
-/**conteneur activites *************/
+/**conteneur activites*************/
 
 #activitemarseille {
     display: flex;
@@ -575,7 +582,7 @@ ul {
 
 .assistance {}
 
-/**********Responsive ************/
+/**********Responsive************/
 
 /* ! reponsive en  800 1024*/
 
@@ -590,10 +597,14 @@ ul {
     flex-wrap: wrap;
 }
 
+.icone {
+    margin: 1.25rem 0.5rem 1.25rem 0px;
+}
 
 
-
-
+.filtretitre {
+    margin-right: 1rem ;
+}
 
 /* ! reponsive en 600 */
 
@@ -620,7 +631,7 @@ ul {
     .menu {
         display: none;
     }
-
+    
     .menuresponsive {
         display: block;
     }
@@ -632,6 +643,7 @@ ul {
         /*!rajout margin-right: */
         margin-right: 10rem;
         margin-block-end: 0em;
+        margin-left: 2rem;
     }
 
     .conteneurliresponsive {
@@ -646,6 +658,14 @@ ul {
         top: 1.25rem;
         right: 2.5rem;
     }
+    
+    .ulresponsivebas{
+        display: flex;
+        margin-top: -50px;
+        margin-bottom: -20px;
+        justify-content: space-around;
+    }
+    
 
 
     .h1responsive {
@@ -685,10 +705,14 @@ ul {
     /**! filtres****/
     .filtre {
         display: flex;
-        flex-wrap: wrap;
-        margin: 0px;
+              margin: 0px;
+        flex-direction: column;
+    width: 16rem;
     }
-
+.icone {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
     .filtretexte {
         margin: 0 0.2rem 0 0.2rem;
         font-size: 1.0rem;
@@ -709,8 +733,6 @@ ul {
         flex-direction: column-reverse;
         max-width: 95%;
     }
-
-    
 
 
 
@@ -733,7 +755,7 @@ ul {
         white-space: normal;
         border-radius: 1.2rem;
         max-width: 780px;
-        width: 100%;
+        width: 97%;
         overflow: hidden;
 margin-top: 0.5rem;
 margin-bottom: 0.5rem;
@@ -750,7 +772,7 @@ margin-bottom: 0.5rem;
     }
 
     .img25 {
-      /*  max-height: 55rem;********************/
+      /*max-height: 55rem;********************/
         padding: 3px;
         margin-inline-start: 1px;
         margin-inline-end: 5px;
@@ -831,4 +853,11 @@ margin-bottom: 0.5rem;
     .site-search {
         width: 15rem;
     }
+
+    
+    
+.icone {
+    margin-top: 0px;
+}
+
 }
