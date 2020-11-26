@@ -12,6 +12,9 @@ body {
     margin-right: 1rem;
 }
 
+header {
+    margin-top: -2px;
+}
 
 
 h1 {
@@ -98,19 +101,24 @@ nav a {
 }
 
 .lihebergement:hover,
-.hebergementresponsive:hover,
-.liactivite:hover,
-.activiteresponsive:hover {
+.liactivite:hover
+ {
     color: #0065fc;
-    border-top: 5px solid #0065fc;
+    border-top: 7px solid #0065fc;
 }
 
+
+.hebergementresponsive:hover,
+.activiteresponsive:hover {
+    color: #0065fc;
+    border-bottom: 7px solid #0065fc;
+}
 
 .lihebergement,
 .liactivite,
 .liinscrire {
     padding-top: 1.25rem;
-    border: 5px solid transparent;
+    border: 7px solid transparent;
 }
 
 
@@ -187,13 +195,23 @@ nav a {
     position: relative;
     padding-left: 2.5rem;
     height: 2.25rem;
+    /*!effet icone*/
+    cursor: pointer;
+    transition-property: background;
+    transition-timing-function: linear;
+    transition-duration: 1s;
+
+
 }
+
+
 
 .icone:hover {
     background-color: #0065fc;
-    border-color: #deebff;
+    
 
 }
+
 
 .filtretitre {
     padding-top: 1rem;
@@ -266,6 +284,7 @@ nav a {
     border-width: 1px 0px 1px 1px;
     border-color: #f2f2f2;
     border-radius: 10px 0 0 10px;
+    margin-top: -4px;
 }
 
 
@@ -302,16 +321,15 @@ i:hover {
     margin-top: -10px;
 }
 
-.filtre:hover {
-    background-color: #deebff;
-}
 
 .fa-info {
+    font-size: 1.0rem;
+    border-radius: 50%;
     color: #0065fc;
-    padding: 0 5px 0 5px;
-    background-color: #f2f2f2;
-    border-radius: 0.2rem;
-    border: 2px solid #f2f2f2;
+    padding: 6px 9px;
+    background-color: #deebff;
+    
+    border: 5px solid #deebff;
 }
 
 /******************/
@@ -346,6 +364,7 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-top: -20px;
 }
 
 
@@ -374,14 +393,14 @@ main {
 .fas.fa-star.first {
     margin-left: 0px;
 }
-
+/*!
 figcaption {
     display: inline-block;
     font-size: 0.75rem;
     margin-left: 1rem;
 }
 
-/*! revoir*/
+ revoir*/
 /*!re */
 /*
 .titrebloc {
@@ -424,9 +443,10 @@ margin-block-start: 1rem;
     width: 100%;
     border-radius: 1.2rem;
     height: 10rem;
+    object-fit: cover;
 }
 
-.imgheb:hover {
+.img75:hover {
     transform: scale(1.02);
 }
 
@@ -438,11 +458,16 @@ margin-block-start: 1rem;
 
 
 /*****! populaire****/
-
-.titrebloc h5 {
-    margin-left: 10px;
+.titrebloc {
+    width: 95%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
 }
 
+.titrebloc h5 {
+    font-size: 1rem;
+}
 .lienpopulaire {
     display: inline-block;
     float: left;
@@ -489,7 +514,7 @@ margin-block-start: 1rem;
     border-radius: 1rem 0 0 1rem;
 }
 
-.imgpop:hover {
+.blocimg25:hover {
     transform: scale(1.02);
 }
 
@@ -552,9 +577,9 @@ margin-block-start: 1rem;
     border-radius: 1.2rem 1.2rem 0 0;
 }
 
-.imgact:hover,
-.imgactptt:hover {
-    transform: scale(1.05);
+.lienactivitegrd:hover
+ {
+    transform: scale(1.01);
 }
 
 .imgactptt {
@@ -612,6 +637,13 @@ ul {
     }
 
 }
+/*!
+.margecote {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+*/
 
 .filtre {
     display: flex;
@@ -871,7 +903,11 @@ ul {
     .noshebergements,
     .assistance {
         width: 100%;
-        margin-left: -30px;
+        margin-left: -45px;
+    }
+
+    .footerliste {
+        margin-left: 0px;
     }
 
 }
