@@ -1,12 +1,17 @@
-
 @import "https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap";
 
 /**affectation de la police*/
 body {
     font-family: "Raleway", "Sans serif ";
-    margin: 10px;
+   /*! margin: 10px; */
     background-color: #ffffff;
 }
+
+.margecote {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
 
 
 h1 {
@@ -47,19 +52,21 @@ a {
 header {
     display: flex;
     justify-content: space-between;
+    margin-top: 1rem;
 }
 
 
 .logo {
     display: flex;
     align-items: baseline;
-    padding-top: 1.25rem;   
+    
 }
 
 /**navigation**/
 nav {
     vertical-align: top;
-    margin-right: 2rem;
+    margin-right: 2rem;    
+    margin-top: -25px; /*!*/
 }
 
 nav ul {
@@ -95,9 +102,9 @@ nav a {
 .liactivite:hover,
 .activiteresponsive:hover {
     color: #0065fc;
-    border-top: 5px solid  #0065fc;
- }
- 
+    border-top: 5px solid #0065fc;
+}
+
 
 .lihebergement,
 .liactivite,
@@ -150,14 +157,25 @@ nav a {
 }
 
 
+#recherche {
+    margin-top: 40px;
+}
 
+#barrerecherche {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 
+.h1responsive{
+ margin-bottom: 30px;
+}
 
 .filtre {
     display: flex;
-          margin: 0px;
-          flex-wrap: nowrap;
-        }
+    
+    flex-wrap: nowrap;
+}
 
 
 
@@ -191,15 +209,13 @@ nav a {
 }
 
 
-#barrerecherche {
-    display: flex;
-}
+
 
 
 
 .rechercheresponsive {
     display: none;
-margin-left:  -4px;
+    margin-left: -4px;
     width: 2.5rem;
     height: 2.5rem;
     border: none;
@@ -283,6 +299,7 @@ i:hover {
 .filtre {
     display: flex;
     justify-content: flex-start;
+    margin-top: -10px;
 }
 
 .filtre:hover {
@@ -300,7 +317,8 @@ i:hover {
 /******************/
 /*!revoir*/
 /*!re*/
-/*section*/main {
+/*section*/
+main {
     display: flex;
 }
 
@@ -308,7 +326,7 @@ i:hover {
 .blocpopulaire {
     background-color: #f2f2f2;
     border-radius: 1.2rem;
-    margin: 5px;
+    
 }
 
 .prix {
@@ -321,12 +339,13 @@ i:hover {
 .blochebergement {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .blochebermentimage {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 
@@ -351,6 +370,7 @@ i:hover {
 .claire {
     color: #deebff;
 }
+
 .fas.fa-star.first {
     margin-left: 0px;
 }
@@ -360,26 +380,26 @@ figcaption {
     font-size: 0.75rem;
     margin-left: 1rem;
 }
-   /*! revoir*/
-   /*!re */
-   /*
+
+/*! revoir*/
+/*!re */
+/*
 .titrebloc {
 margin-block-start: 1rem;
     margin-block-end: 1.6rem;
 }
 */
-.titrehebergement {
-    margin-left: 1rem;
-}
+
 
 
 .descriptif {
     margin-left: 10px;
     margin-top: -25px;
 }
- .textedescriptif {
-     margin-top: -25px;
- }
+
+.textedescriptif {
+    margin-top: -25px;
+}
 
 .img75 {
     display: flex;
@@ -392,11 +412,12 @@ margin-block-start: 1rem;
     width: 25%;
     height: 17.5rem;
     margin-top: 2rem;
-  /*!  margin-bottom: 3rem;*/
-    margin-right: 1.2rem; /*!rajoute*/
-  /*!  margin-inline-start: 1rem;*/
+    /*!  margin-bottom: 3rem;*/
+    margin-right: 1.2rem;
+    /*!rajoute*/
+    /*!  margin-inline-start: 1rem;*/
     /*! margin-inline-end: 1rem; */
-    box-shadow: 2px 2px 2px #4e4e4e;
+    box-shadow: 2px 2px 2px #858484;
 }
 
 .imgheb {
@@ -406,7 +427,7 @@ margin-block-start: 1rem;
 }
 
 .imgheb:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 
@@ -429,7 +450,7 @@ margin-block-start: 1rem;
     background-color: #ffffff;
     border: 5px solid #fdfbfb;
     border-radius: 1.25rem;
-    box-shadow: 2px 2px 2px #4e4e4e;
+    box-shadow: 2px 2px 2px #858484;
 }
 
 
@@ -453,9 +474,9 @@ margin-block-start: 1rem;
     min-width: 18.00rem;
     padding: 3px;
     /*!sup 2eme*/
-  /*!  margin-inline-start: 1px;*/
-/***/
-   /*! margin-inline-end: 5px;*/
+    /*!  margin-inline-start: 1px;*/
+    /***/
+    /*! margin-inline-end: 5px;*/
     border-radius: 1.2rem;
     margin-bottom: 10rem;
 }
@@ -469,7 +490,7 @@ margin-block-start: 1rem;
 }
 
 .imgpop:hover {
-    transform: scale(1.05);
+    transform: scale(1.02);
 }
 
 
@@ -494,7 +515,7 @@ margin-block-start: 1rem;
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .blocactivite {
@@ -506,20 +527,20 @@ margin-block-start: 1rem;
 .activitetitre {
     margin-left: 10px;
     /*!    margin-block-start: 2rem;*/
-/*!    margin-block-end: 2rem; */
+    /*!    margin-block-end: 2rem; */
 }
 
 .activitetitregrd {
     margin-left: 10px;
-  /*!  margin-block-start: 1.33em;*/
-  /*!  margin-block-end: 1.53em;*/
+    /*!  margin-block-start: 1.33em;*/
+    /*!  margin-block-end: 1.53em;*/
 }
 
 .lienactivitegrd {
     background-color: #ffffff;
     margin-bottom: 0.5rem;
     border-radius: 1.2rem 1.2rem;
-    box-shadow: 0px 2px 0px #4e4e4e;
+    box-shadow: 0px 2px 0px #858484;
 }
 
 
@@ -554,11 +575,10 @@ footer {
 
 ul {
     list-style: none
-   
 }
 
 .footerliste {
-    
+
     font-size: 1rem;
     margin-top: 0;
 }
@@ -592,6 +612,7 @@ ul {
     }
 
 }
+
 .filtre {
     display: flex;
     flex-wrap: wrap;
@@ -603,7 +624,7 @@ ul {
 
 
 .filtretitre {
-    margin-right: 1rem ;
+    margin-right: 1rem;
 }
 
 /* ! reponsive en 600 */
@@ -631,25 +652,27 @@ ul {
     .menu {
         display: none;
     }
-    
+
     .menuresponsive {
         display: block;
     }
 
     .ulresponsive {
         display: flex;
-       /*! flex-direction: column;*/
+        /*! flex-direction: column;*/
         /*!margin-block-start: -1em;*/
         /*!rajout margin-right: */
         margin-right: 10rem;
-       /*! margin-block-end: 0em;*//*!****/
+        /*! margin-block-end: 0em;*/
+        /*!****/
         margin-left: 2rem;
     }
 
     .conteneurliresponsive {
         display: flex;
         /*!justify-content: center;*/
-        margin: 0px 40px;/*! rajout*/
+        margin: 0px 40px;
+        /*! rajout*/
     }
 
 
@@ -658,14 +681,14 @@ ul {
         top: 1.25rem;
         right: 2.5rem;
     }
-    
-    .ulresponsivebas{
+
+    .ulresponsivebas {
         display: flex;
         margin-top: -50px;
         margin-bottom: -20px;
         justify-content: space-around;
     }
-    
+
 
 
     .h1responsive {
@@ -691,7 +714,8 @@ ul {
         background-color: #0065fc;
         border-radius: 0.8rem;
     }
-/*!
+
+    /*!
     .site-search {
         width: 11rem;
     }
@@ -705,14 +729,16 @@ ul {
     /**! filtres****/
     .filtre {
         display: flex;
-              margin: 0px;
+       
         flex-direction: column;
-    width: 16rem;
+        width: 16rem;
     }
-.icone {
-    margin-top: 0.5rem;
-    margin-bottom: 0.5rem;
-}
+
+    .icone {
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+    }
+
     .filtretexte {
         margin: 0 0.2rem 0 0.2rem;
         font-size: 1.0rem;
@@ -726,9 +752,10 @@ ul {
     }
 
     /**! section ***/
-/*!revoir */
-/*!re*/
-    /*section*/main {
+    /*!revoir */
+    /*!re*/
+    /*section*/
+    main {
         display: flex;
         flex-direction: column-reverse;
         max-width: 95%;
@@ -739,7 +766,7 @@ ul {
     .blochebergement {
         display: flex;
         flex-direction: column;
-       justify-content: center;
+        justify-content: center;
     }
 
 
@@ -757,27 +784,28 @@ ul {
         max-width: 780px;
         width: 97%;
         overflow: hidden;
-margin-top: 0.5rem;
-margin-bottom: 0.5rem;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
     }
 
     .imgheb {}
 
-   
+
 
     .blocpopulaire {
-     /*****!bloc populaire   display: flex;
+        /*****!bloc populaire   display: flex;
         order: 1; */
         width: 100%;
     }
 
     .img25 {
-      /*max-height: 55rem;********************/
+        /*max-height: 55rem;********************/
         padding: 3px;
-      /*!  margin-inline-start: 1px;*/
-       /*! margin-inline-end: 5px;**//*!****/
+        /*!  margin-inline-start: 1px;*/
+        /*! margin-inline-end: 5px;**/
+        /*!****/
         border-radius: 1.2rem;
-        }
+    }
 
     .imgpop {
         height: 9rem;
@@ -840,11 +868,11 @@ margin-bottom: 0.5rem;
     }
 
     .apropos,
-.noshebergements,
-.assistance {
-    width: 100%;
-    margin-left: -30px;
-}
+    .noshebergements,
+    .assistance {
+        width: 100%;
+        margin-left: -30px;
+    }
 
 }
 
@@ -854,10 +882,10 @@ margin-bottom: 0.5rem;
         width: 15rem;
     }
 
-    
-    
-.icone {
-    margin-top: 0px;
-}
+
+
+    .icone {
+        margin-top: 0px;
+    }
 
 }
