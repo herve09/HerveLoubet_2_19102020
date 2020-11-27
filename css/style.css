@@ -102,7 +102,7 @@ nav a {
 
 .lihebergement:hover,
 .liactivite:hover
- {
+ { 
     color: #0065fc;
     border-top: 7px solid #0065fc;
 }
@@ -112,6 +112,7 @@ nav a {
 .activiteresponsive:hover {
     color: #0065fc;
     border-bottom: 7px solid #0065fc;
+    width: 100%;
 }
 
 .lihebergement,
@@ -134,12 +135,14 @@ nav a {
     color: #ffffff;
 }
 
-/***menu responsive***/
+
 .conteneurresponsive {
     display: flex;
     flex-direction: column;
 
     float: left;
+
+    
 }
 
 .menuresponsive {
@@ -156,6 +159,10 @@ nav a {
     display: none;
 }
 
+.ulresponsivebas {
+    width: 100%;
+  
+}
 /******bordure des filtres et recherche****/
 
 .fas,
@@ -175,7 +182,7 @@ nav a {
     margin-bottom: 30px;
 }
 
-.h1responsive{
+.h1responsive {
  margin-bottom: 30px;
 }
 
@@ -603,7 +610,7 @@ ul {
 }
 
 .footerliste {
-
+margin-left: -40px;
     font-size: 1rem;
     margin-top: 0;
 }
@@ -617,9 +624,7 @@ ul {
 
 }
 
-.footertitre {
-    margin-left: 40px;
-}
+
 
 .apropos {}
 
@@ -660,6 +665,9 @@ ul {
 }
 
 /* ! reponsive en 600 */
+/*! */
+/*! */
+/*! */
 
 
 @media all and (max-width: 780px) {
@@ -678,7 +686,7 @@ ul {
 
     nav a {
         font-size: 1.2rem;
-
+text-align: center;
     }
 
     .menu {
@@ -688,24 +696,47 @@ ul {
     .menuresponsive {
         display: block;
     }
-
+  /*!
     .ulresponsive {
         display: flex;
-        /*! flex-direction: column;*/
+       flex-direction: column;*/
         /*!margin-block-start: -1em;*/
         /*!rajout margin-right: */
         margin-right: 10rem;
         /*! margin-block-end: 0em;*/
-        /*!****/
+        /*!**
         margin-left: 2rem;
+        
+    }**/
+
+    .conteneurliresponsivehb {
+        display: flex;
+        /*!justify-content: center;
+        margin: 0px 40px;*/
+        /*! rajout 18H42µµµµµµµµµµµµµµµµµµµµµ*/
+        width: 40%;
+        position: absolute;
+        left: 40px;
     }
 
     .conteneurliresponsive {
         display: flex;
-        /*!justify-content: center;*/
-        margin: 0px 40px;
-        /*! rajout*/
+        /*!justify-content: center;
+        margin: 0px 40px;*/
+        /*! rajout 18H42µµµµµµµµµµµµµµµµµµµµµ*/
+        width: 40%;
+        position: absolute;
+        right: 40px;
     }
+/***************************************/
+/**************************************/
+/**************26
+
+.hebergementresponsive{
+position: absolute;
+left: 40px;
+}
+**************/
 
 
     .inscrireresponsive {
@@ -717,10 +748,15 @@ ul {
     .ulresponsivebas {
         display: flex;
         margin-top: -50px;
-        margin-bottom: -20px;
+        
         justify-content: space-around;
     }
 
+.conteneurliresponsivehb  {
+    position: absolute;
+    left: 1rem;
+    width: 40%;
+}
 
 
     .h1responsive {
@@ -728,6 +764,9 @@ ul {
     }
 
     /* ! recherche **/
+    .recherche {
+        margin-top: 80px;
+    }
     .barrerecherche {
         display: flex;
         width: 10rem;
@@ -923,5 +962,12 @@ ul {
     .icone {
         margin-top: 0px;
     }
+/**
+    .conteneurliresponsivehb {
+        left: 20px;
+    }
 
+    .conteneurliresponsive {
+        right: 20px;
+    }*/
 }
