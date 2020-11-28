@@ -3,8 +3,7 @@
 /**affectation de la police*/
 body {
     font-family: "Raleway", "Sans serif ";
-   /*! margin: 10px; */
-    background-color: #ffffff;
+       background-color: #ffffff;
 }
 
 .margecote {
@@ -163,7 +162,7 @@ nav a {
     width: 100%;
   
 }
-/******bordure des filtres et recherche****/
+
 
 .fas,
 .fa-search,
@@ -202,7 +201,6 @@ nav a {
     position: relative;
     padding-left: 2.5rem;
     height: 2.25rem;
-    /*!effet icone*/
     cursor: pointer;
     transition-property: background;
     transition-timing-function: linear;
@@ -339,9 +337,7 @@ i:hover {
     border: 5px solid #deebff;
 }
 
-/******************/
-/*!revoir*/
-/*!re*/
+
 /*section*/
 main {
     display: flex;
@@ -400,21 +396,6 @@ main {
 .fas.fa-star.first {
     margin-left: 0px;
 }
-/*!
-figcaption {
-    display: inline-block;
-    font-size: 0.75rem;
-    margin-left: 1rem;
-}
-
- revoir*/
-/*!re */
-/*
-.titrebloc {
-margin-block-start: 1rem;
-    margin-block-end: 1.6rem;
-}
-*/
 
 
 
@@ -438,11 +419,8 @@ margin-block-start: 1rem;
     width: 25%;
     height: 17.5rem;
     margin-top: 2rem;
-    /*!  margin-bottom: 3rem;*/
-    margin-right: 1.2rem;
-    /*!rajoute*/
-    /*!  margin-inline-start: 1rem;*/
-    /*! margin-inline-end: 1rem; */
+        margin-right: 1.2rem;
+   
     box-shadow: 2px 2px 2px #858484;
 }
 
@@ -505,11 +483,7 @@ margin-block-start: 1rem;
 .img25 {
     min-width: 18.00rem;
     padding: 3px;
-    /*!sup 2eme*/
-    /*!  margin-inline-start: 1px;*/
-    /***/
-    /*! margin-inline-end: 5px;*/
-    border-radius: 1.2rem;
+        border-radius: 1.2rem;
     margin-bottom: 10rem;
 }
 
@@ -536,11 +510,10 @@ margin-block-start: 1rem;
 #activitemarseille {
     display: flex;
     flex-direction: column;
-    margin-left: 5px;
 }
 
 .titremarseille {
-    margin-left: 15px;
+    margin-left: 15px; 
 }
 
 .activite {
@@ -558,14 +531,11 @@ margin-block-start: 1rem;
 
 .activitetitre {
     margin-left: 10px;
-    /*!    margin-block-start: 2rem;*/
-    /*!    margin-block-end: 2rem; */
 }
 
 .activitetitregrd {
     margin-left: 10px;
-    /*!  margin-block-start: 1.33em;*/
-    /*!  margin-block-end: 1.53em;*/
+    
 }
 
 .lienactivitegrd {
@@ -642,13 +612,7 @@ margin-left: -40px;
     }
 
 }
-/*!
-.margecote {
-    margin-left: 2rem;
-    margin-right: 2rem;
-}
 
-*/
 
 .filtre {
     display: flex;
@@ -665,9 +629,7 @@ margin-left: -40px;
 }
 
 /* ! reponsive en 600 */
-/*! */
-/*! */
-/*! */
+
 
 
 @media all and (max-width: 780px) {
@@ -696,47 +658,21 @@ text-align: center;
     .menuresponsive {
         display: block;
     }
-  /*!
-    .ulresponsive {
-        display: flex;
-       flex-direction: column;*/
-        /*!margin-block-start: -1em;*/
-        /*!rajout margin-right: */
-        margin-right: 10rem;
-        /*! margin-block-end: 0em;*/
-        /*!**
-        margin-left: 2rem;
-        
-    }**/
+  
 
     .conteneurliresponsivehb {
         display: flex;
-        /*!justify-content: center;
-        margin: 0px 40px;*/
-        /*! rajout 18H42µµµµµµµµµµµµµµµµµµµµµ*/
-        width: 40%;
+                width: 40%;
         position: absolute;
         left: 40px;
     }
 
     .conteneurliresponsive {
         display: flex;
-        /*!justify-content: center;
-        margin: 0px 40px;*/
-        /*! rajout 18H42µµµµµµµµµµµµµµµµµµµµµ*/
-        width: 40%;
+             width: 40%;
         position: absolute;
         right: 40px;
     }
-/***************************************/
-/**************************************/
-/**************26
-
-.hebergementresponsive{
-position: absolute;
-left: 40px;
-}
-**************/
 
 
     .inscrireresponsive {
@@ -786,11 +722,7 @@ left: 40px;
         border-radius: 0.8rem;
     }
 
-    /*!
-    .site-search {
-        width: 11rem;
-    }
-*/
+    
     .loupes {
         font-size: 1.25rem;
         color: #ffffff;
@@ -822,9 +754,7 @@ left: 40px;
         width: 100%;
     }
 
-    /**! section ***/
-    /*!revoir */
-    /*!re*/
+    
     /*section*/
     main {
         display: flex;
@@ -864,18 +794,13 @@ left: 40px;
 
 
     .blocpopulaire {
-        /*****!bloc populaire   display: flex;
-        order: 1; */
+              order: 1; */
         width: 100%;
     }
 
     .img25 {
-        /*max-height: 55rem;********************/
-        padding: 3px;
-        /*!  margin-inline-start: 1px;*/
-        /*! margin-inline-end: 5px;**/
-        /*!****/
-        border-radius: 1.2rem;
+               padding: 3px;
+               border-radius: 1.2rem;
     }
 
     .imgpop {
@@ -893,8 +818,7 @@ left: 40px;
     .activite {
         display: flex;
         flex-direction: column;
-        width: 95%;
-    }
+        }
 
     .popdescriptif {
         margin-top: -29px;
@@ -942,12 +866,9 @@ left: 40px;
     .noshebergements,
     .assistance {
         width: 100%;
-        margin-left: -45px;
-    }
+        }
 
-    .footerliste {
-        margin-left: 0px;
-    }
+    
 
 }
 
@@ -962,12 +883,5 @@ left: 40px;
     .icone {
         margin-top: 0px;
     }
-/**
-    .conteneurliresponsivehb {
-        left: 20px;
-    }
 
-    .conteneurliresponsive {
-        right: 20px;
-    }*/
 }
