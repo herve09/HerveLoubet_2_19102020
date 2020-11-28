@@ -3,7 +3,7 @@
 /**affectation de la police*/
 body {
     font-family: "Raleway", "Sans serif ";
-       background-color: #ffffff;
+    background-color: #ffffff;
 }
 
 .margecote {
@@ -61,14 +61,15 @@ header {
 .logo {
     display: flex;
     align-items: baseline;
-    
+
 }
 
 /**navigation**/
 nav {
     vertical-align: top;
-    margin-right: 2rem;    
-    margin-top: -25px; /*!*/
+    margin-right: 2rem;
+    margin-top: -25px;
+    /*!*/
 }
 
 nav ul {
@@ -100,8 +101,7 @@ nav a {
 }
 
 .lihebergement:hover,
-.liactivite:hover
- { 
+.liactivite:hover {
     color: #0065fc;
     border-top: 7px solid #0065fc;
 }
@@ -141,7 +141,7 @@ nav a {
 
     float: left;
 
-    
+
 }
 
 .menuresponsive {
@@ -160,7 +160,7 @@ nav a {
 
 .ulresponsivebas {
     width: 100%;
-  
+
 }
 
 
@@ -182,12 +182,12 @@ nav a {
 }
 
 .h1responsive {
- margin-bottom: 30px;
+    margin-bottom: 30px;
 }
 
 .filtre {
     display: flex;
-    
+
     flex-wrap: nowrap;
 }
 
@@ -213,7 +213,7 @@ nav a {
 
 .icone:hover {
     background-color: #0065fc;
-    
+
 
 }
 
@@ -333,7 +333,7 @@ i:hover {
     color: #0065fc;
     padding: 6px 9px;
     background-color: #deebff;
-    
+
     border: 5px solid #deebff;
 }
 
@@ -347,7 +347,7 @@ main {
 .blocpopulaire {
     background-color: #f2f2f2;
     border-radius: 1.2rem;
-    
+
 }
 
 .prix {
@@ -419,8 +419,8 @@ main {
     width: 25%;
     height: 17.5rem;
     margin-top: 2rem;
-        margin-right: 1.2rem;
-   
+    margin-right: 1.2rem;
+
     box-shadow: 2px 2px 2px #858484;
 }
 
@@ -428,6 +428,7 @@ main {
     width: 100%;
     border-radius: 1.2rem;
     height: 10rem;
+    -o-object-fit: cover;
     object-fit: cover;
 }
 
@@ -438,6 +439,7 @@ main {
 
 .aminata,
 .hotelmer {
+    -o-object-fit: cover;
     object-fit: cover;
 }
 
@@ -453,6 +455,7 @@ main {
 .titrebloc h5 {
     font-size: 1rem;
 }
+
 .lienpopulaire {
     display: inline-block;
     float: left;
@@ -483,7 +486,7 @@ main {
 .img25 {
     min-width: 18.00rem;
     padding: 3px;
-        border-radius: 1.2rem;
+    border-radius: 1.2rem;
     margin-bottom: 10rem;
 }
 
@@ -513,7 +516,7 @@ main {
 }
 
 .titremarseille {
-    margin-left: 15px; 
+    margin-left: 15px;
 }
 
 .activite {
@@ -535,7 +538,7 @@ main {
 
 .activitetitregrd {
     margin-left: 10px;
-    
+
 }
 
 .lienactivitegrd {
@@ -550,12 +553,12 @@ main {
     width: 100%;
     overflow: hidden;
     height: 29rem;
+    -o-object-fit: cover;
     object-fit: cover;
     border-radius: 1.2rem 1.2rem 0 0;
 }
 
-.lienactivitegrd:hover
- {
+.lienactivitegrd:hover {
     transform: scale(1.01);
 }
 
@@ -563,6 +566,7 @@ main {
     width: 100%;
     height: 11.5rem;
     overflow: hidden;
+    -o-object-fit: cover;
     object-fit: cover;
     border-radius: 1.2rem 1.2rem 0 0;
 }
@@ -580,7 +584,7 @@ ul {
 }
 
 .footerliste {
-margin-left: -40px;
+    margin-left: -40px;
     font-size: 1rem;
     margin-top: 0;
 }
@@ -648,7 +652,7 @@ margin-left: -40px;
 
     nav a {
         font-size: 1.2rem;
-text-align: center;
+        text-align: center;
     }
 
     .menu {
@@ -658,18 +662,18 @@ text-align: center;
     .menuresponsive {
         display: block;
     }
-  
+
 
     .conteneurliresponsivehb {
         display: flex;
-                width: 40%;
+        width: 40%;
         position: absolute;
         left: 40px;
     }
 
     .conteneurliresponsive {
         display: flex;
-             width: 40%;
+        width: 40%;
         position: absolute;
         right: 40px;
     }
@@ -684,15 +688,15 @@ text-align: center;
     .ulresponsivebas {
         display: flex;
         margin-top: -50px;
-        
+
         justify-content: space-around;
     }
 
-.conteneurliresponsivehb  {
-    position: absolute;
-    left: 1rem;
-    width: 40%;
-}
+    .conteneurliresponsivehb {
+        position: absolute;
+        left: 1rem;
+        width: 40%;
+    }
 
 
     .h1responsive {
@@ -703,6 +707,7 @@ text-align: center;
     .recherche {
         margin-top: 80px;
     }
+
     .barrerecherche {
         display: flex;
         width: 10rem;
@@ -722,7 +727,7 @@ text-align: center;
         border-radius: 0.8rem;
     }
 
-    
+
     .loupes {
         font-size: 1.25rem;
         color: #ffffff;
@@ -732,7 +737,7 @@ text-align: center;
     /**! filtres****/
     .filtre {
         display: flex;
-       
+
         flex-direction: column;
         width: 16rem;
     }
@@ -754,7 +759,7 @@ text-align: center;
         width: 100%;
     }
 
-    
+
     /*section*/
     main {
         display: flex;
@@ -794,13 +799,13 @@ text-align: center;
 
 
     .blocpopulaire {
-              order: 1; */
+        order: 1;
         width: 100%;
     }
 
     .img25 {
-               padding: 3px;
-               border-radius: 1.2rem;
+        padding: 3px;
+        border-radius: 1.2rem;
     }
 
     .imgpop {
@@ -818,7 +823,7 @@ text-align: center;
     .activite {
         display: flex;
         flex-direction: column;
-        }
+    }
 
     .popdescriptif {
         margin-top: -29px;
@@ -866,9 +871,9 @@ text-align: center;
     .noshebergements,
     .assistance {
         width: 100%;
-        }
+    }
 
-    
+
 
 }
 
