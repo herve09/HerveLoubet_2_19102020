@@ -442,6 +442,7 @@ main {
     display: inline-block;
     float: left;
     display: flex;
+    width: 98%;
     background-color: #ffffff;
     border: 5px solid #fdfbfb;
     border-radius: 1.25rem;
@@ -806,13 +807,16 @@ ul {
         margin-top: -29px;
     }
 
+    .blocimag25 {
+        width: 100%;
+    }
+
+
     .blocactivite {
         width: 100%;
     }
 
-    .blocimag25 {
-        width: 100%;
-    }
+   
 
     .imgact {
         height: 10.5rem;
