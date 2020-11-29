@@ -138,15 +138,11 @@ nav a {
 .conteneurresponsive {
     display: flex;
     flex-direction: column;
-
     float: left;
-
-
 }
 
 .menuresponsive {
     display: flex;
-
     justify-content: center;
 }
 
@@ -160,7 +156,6 @@ nav a {
 
 .ulresponsivebas {
     width: 100%;
-
 }
 
 
@@ -187,7 +182,6 @@ nav a {
 
 .filtre {
     display: flex;
-
     flex-wrap: nowrap;
 }
 
@@ -204,17 +198,13 @@ nav a {
     cursor: pointer;
     transition-property: background;
     transition-timing-function: linear;
-    transition-duration: 1s;
-
-
+    transition-duration: 2s;
 }
 
 
 
 .icone:hover {
     background-color: #0065fc;
-
-
 }
 
 
@@ -232,10 +222,6 @@ nav a {
 }
 
 
-
-
-
-
 .rechercheresponsive {
     display: none;
     margin-left: -4px;
@@ -245,7 +231,6 @@ nav a {
 }
 
 .site-search {
-
     height: 2.5rem;
     width: 18.75rem;
     font-size: 1.2rem;
@@ -333,7 +318,6 @@ i:hover {
     color: #0065fc;
     padding: 6px 9px;
     background-color: #deebff;
-
     border: 5px solid #deebff;
 }
 
@@ -347,7 +331,6 @@ main {
 .blocpopulaire {
     background-color: #f2f2f2;
     border-radius: 1.2rem;
-
 }
 
 .prix {
@@ -420,7 +403,6 @@ main {
     height: 17.5rem;
     margin-top: 2rem;
     margin-right: 1.2rem;
-
     box-shadow: 2px 2px 2px #858484;
 }
 
@@ -608,7 +590,7 @@ ul {
 
 /**********Responsive************/
 
-/* ! reponsive en  800 1024*/
+/* ! reponsive en  781 1024*/
 
 @media all and (min-width: 781px) and (max-width: 1024px) {
     .img75 {
@@ -632,7 +614,7 @@ ul {
     margin-right: 1rem;
 }
 
-/* ! reponsive en 600 */
+/* ! reponsive en 780 */
 
 
 
@@ -688,7 +670,6 @@ ul {
     .ulresponsivebas {
         display: flex;
         margin-top: -50px;
-
         justify-content: space-around;
     }
 
@@ -705,7 +686,7 @@ ul {
 
     /* ! recherche **/
     .recherche {
-        margin-top: 80px;
+        margin-top: 50px;
     }
 
     .barrerecherche {
@@ -794,10 +775,6 @@ ul {
         margin-bottom: 0.5rem;
     }
 
-    .imgheb {}
-
-
-
     .blocpopulaire {
         order: 1;
         width: 100%;
@@ -872,8 +849,6 @@ ul {
     .assistance {
         width: 100%;
     }
-
-
 
 }
 
