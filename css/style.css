@@ -11,10 +11,6 @@ body {
     margin-right: 1rem;
 }
 
-header {
-    margin-top: -2px;
-}
-
 
 h1 {
     font-size: 1.5rem;
@@ -54,7 +50,7 @@ a {
 header {
     display: flex;
     justify-content: space-between;
-    margin-top: 1rem;
+    margin-top: -2px;
 }
 
 
