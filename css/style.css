@@ -99,8 +99,8 @@ nav a {
 .lihebergement:hover,
 .liactivite:hover {
     color: #0065fc;
-    border: 7px solid transparent;
-    border-top-color: #0065fc;
+    border-top: 7px solid #0065fc;
+
 }
 
 
@@ -115,7 +115,7 @@ nav a {
 .liactivite,
 .liinscrire {
     padding-top: 1.25rem;
-    
+
 }
 
 
@@ -272,7 +272,7 @@ nav a {
     border-color: #f2f2f2;
     border-radius: 10px 0 0 10px;
     background-color: #f2f2f2;
-    
+
 }
 
 
@@ -342,9 +342,11 @@ main {
 .hebergement_populaire {
     margin-right: 25px;
 }
+
 .titrebloc p {
     margin: 0;
 }
+
 #blochebergement {
     display: flex;
     flex-wrap: wrap;
@@ -355,7 +357,11 @@ main {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    
+
+}
+
+.titrehebergement {
+    width: 100%;
 }
 
 .titrehebergement h4 {
@@ -828,7 +834,7 @@ ul {
         width: 100%;
     }
 
-   
+
 
     .imgact {
         height: 10.5rem;
