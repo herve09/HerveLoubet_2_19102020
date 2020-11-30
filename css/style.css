@@ -99,7 +99,8 @@ nav a {
 .lihebergement:hover,
 .liactivite:hover {
     color: #0065fc;
-    border-top: 7px solid #0065fc;
+    border: 7px solid transparent;
+    border-top-color: #0065fc;
 }
 
 
@@ -114,7 +115,7 @@ nav a {
 .liactivite,
 .liinscrire {
     padding-top: 1.25rem;
-    border: 7px solid transparent;
+    
 }
 
 
@@ -270,6 +271,7 @@ nav a {
     border-width: 1px 0px 1px 1px;
     border-color: #f2f2f2;
     border-radius: 10px 0 0 10px;
+    background-color: #f2f2f2;
     
 }
 
@@ -313,8 +315,8 @@ i:hover {
     border-radius: 50%;
     color: #0065fc;
     padding: 6px 9px;
-    background-color: #deebff;
-    border: 5px solid #deebff;
+    background-color: #f2f2f2;
+    border: 5px solid #f2f2f2;
 }
 
 
@@ -323,10 +325,11 @@ main {
     display: flex;
 }
 
-.blochebergement,
+#blochebergement,
 .blocpopulaire {
     background-color: #f2f2f2;
     border-radius: 1.2rem;
+    padding: 20px;
 }
 
 .prix {
@@ -336,19 +339,28 @@ main {
 
 /* ! hebergement**********/
 
-.blochebergement {
+.hebergement_populaire {
+    margin-right: 25px;
+}
+.titrebloc p {
+    margin: 0;
+}
+#blochebergement {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .blochebermentimage {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: -20px;
+    
 }
 
+.titrehebergement h4 {
+    margin-bottom: 0;
+}
 
 .blocpopulaire {
     order: 1;
@@ -428,10 +440,12 @@ main {
     display: flex;
     flex-wrap: nowrap;
     justify-content: space-between;
+    margin-bottom: 20px;
 }
 
 .titrebloc h5 {
     font-size: 1rem;
+    margin: 0;
 }
 
 .lienpopulaire {
@@ -459,6 +473,7 @@ main {
     flex-direction: column;
     align-content: center;
     border-radius: 1.2rem;
+    padding: 20px 0;
 }
 
 
@@ -492,6 +507,7 @@ main {
 #activitemarseille {
     display: flex;
     flex-direction: column;
+    padding-bottom: 40px;
 }
 
 .titremarseille {
