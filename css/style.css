@@ -816,6 +816,7 @@ ul {
     aside {
         max-width: 780px;
         width: 100%;
+        margin-left: 20px;
     }
 
 
