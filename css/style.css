@@ -260,7 +260,7 @@ nav a {
     font-size: 1.2rem;
     vertical-align: -11px;
     margin-left: 5px;
-    background-color: #f2f2f2;
+    background-color: #deebff;
 }
 
 .iconerecherche {
@@ -315,8 +315,8 @@ i:hover {
     border-radius: 50%;
     color: #0065fc;
     padding: 6px 9px;
-    background-color: #f2f2f2;
-    border: 5px solid #f2f2f2;
+    background-color: #deebff;
+    border: 5px solid #deebff;
 }
 
 
@@ -349,8 +349,10 @@ main {
 
 #blochebergement {
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
     justify-content: space-around;
+
 }
 
 .blochebermentimage {
@@ -365,7 +367,7 @@ main {
 }
 
 .titrehebergement h4 {
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .blocpopulaire {
@@ -417,7 +419,7 @@ main {
     height: 17.5rem;
     margin-top: 2rem;
     margin-right: 1.2rem;
-    box-shadow: 2px 2px 2px #858484;
+    box-shadow: 2px 2px 2px #c7c7c7;
 }
 
 .imgheb {
@@ -462,7 +464,7 @@ main {
     background-color: #ffffff;
     border: 5px solid #fdfbfb;
     border-radius: 1.25rem;
-    box-shadow: 2px 2px 2px #858484;
+    box-shadow: 2px 2px 2px #c7c7c7;
 }
 
 
@@ -546,7 +548,7 @@ main {
     background-color: #ffffff;
     margin-bottom: 0.5rem;
     border-radius: 1.2rem 1.2rem;
-    box-shadow: 0px 2px 0px #858484;
+    box-shadow: 0px 2px 0px #c7c7c7;
 }
 
 
@@ -800,6 +802,7 @@ ul {
     }
 
     .img25 {
+        margin-right: 2rem;
         padding: 3px;
         border-radius: 1.2rem;
     }
